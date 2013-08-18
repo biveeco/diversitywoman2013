@@ -1,0 +1,39 @@
+name: Bivee
+pygments: true
+markdown: kramdown
+paginate: 10
+version: 0.9
+
+seo:
+  author: Nicholas Kingston, Scott Schaffter, Arsham Skrenes - Bivee
+  description: 
+  keywords:
+
+contact:
+  phone: '+1 703/ 261-9290'
+  email: 'letstalk@bivee.co'
+  address:
+    line1: 'A coffee shop'
+    line2:  'very near you' 
+
+url:
+permalink: /:year/:title
+  
+social:
+  facebook: 
+  twitter: 'biveeco'
+  linkedin:
+  github: 'biveeco'
+  
+google:
+  analytics : 'UA-111-11'
+  verification : 'SVC'
+
+facebook:
+  admins : '2188a'
+  api : 'asdfas'
+
+assets:
+  img: '/assets/images/'
+  css: '/assets/stylesheets/'
+  js: '/assets/javascripts/'
