@@ -1,6 +1,6 @@
 ---
 layout: profile
-date: 
+date: 2013-07-11
 categories: speakers
 name: Scott Schaffter
 title: Founding Partner
