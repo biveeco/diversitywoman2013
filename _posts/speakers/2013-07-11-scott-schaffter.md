@@ -4,7 +4,7 @@ date: 2013-07-11
 categories: speakers
 name: Scott Schaffter
 title: Founding Partner
-image: /assets/images/speakers/csc_logo.jpg
+image: /assets/images/speakers/scott.jpg
 published: true
 ---
 

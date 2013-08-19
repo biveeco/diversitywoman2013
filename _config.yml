@@ -1,33 +1,27 @@
-name: Bivee
-pygments: true
+name: Diversity Woman
+pygments: false
 markdown: kramdown
 paginate: 10
 version: 0.9
 
 seo:
-  author: Nicholas Kingston, Scott Schaffter, Arsham Skrenes - Bivee
+  author: Nicholas Kingston - Bivee LLC
   description: 
   keywords:
 
 contact:
-  phone: '+1 703/ 261-9290'
-  email: 'letstalk@bivee.co'
-  address:
-    line1: 'A coffee shop'
-    line2:  'very near you' 
+  phone: ''
+  email: ''
+  address: '201 Waterfront St, Fort Washington, MD 20745'
 
 url:
-permalink: /:year/:title
+permalink: /:title
   
 social:
-  facebook: 
-  twitter: 'biveeco'
-  linkedin:
-  github: 'biveeco'
+
   
 google:
   analytics : 'UA-111-11'
-  verification : 'SVC'
 
 facebook:
   admins : '2188a'

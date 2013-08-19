@@ -10,7 +10,6 @@ title: 2013 Conference
           <p>We bet you will learn something new</p>
           {% for post in site.categories.speakers %}
           <div class="speaker">
-            <div class="light"></div>
             <div class="front">
               <img src="{{ post.image }}" />
               <h3>{{ post.name }}</h3>
@@ -19,33 +18,39 @@ title: 2013 Conference
             <div class="back">
               <h3>{{ post.name }}</h3>
               <h4>{{ post.title }}</h4>
-              {{ post.content }}              {% if post.fb %}<a href="http://www.facebook.com/{{ post.fb }}" target="_blank"><i class="icon-facebook"></i></a>{% endif %}
+              {{ post.content }}  
+              <a href="{{ post.url }}" target="_self" title="Read More"><i class="icon-facebook"></i></a>            
+              {% if post.fb %}<a href="http://www.facebook.com/{{ post.fb }}" target="_blank"><i class="icon-facebook"></i></a>{% endif %}
               {% if post.tw %}<a href="http://www.twitter.com/{{ post.tw }}" target="_blank"><i class="icon-twitter"></i></a>{% endif %}
               {% if post.ww %}<a href="{{ post.ww }}" target="_blank"><i class="icon-twitter"></i></a>{% endif %}
             </div>
           </div>
           {% endfor %}
       </article>
-    <section>
+    </section>
+    
     <section id="schedule">
       <article>
         <div class="columns large-12">
           <h2>The Schedule</h2>
           <p>Here is what we plan to explore on the day</p>
           <nav class="pills">
-            <a href="#day0">Pre Conference</a>
-            <a href="#day1">October 2</a>
-            <a href="#day2">October 3</a>
+            <a href="#day0" id="trig-day0">Oct 1</a>
+            <a href="#day1" id="trig-day1">Oct 2</a>
+            <a href="#day2" id="trig-day2">Oct 3</a>
           </nav>
           {% if site.categories.day0 %}
           <ul id="day0" class="planner">
             {% for post in site.categories.day0 %}
-            <li class="toggle">
+            <li>
               <span class="time">{{ post.hour}}</span>
               <span class="talk">
                 <span class="session">{{ post.title }}{% if post.location %}<span class="location">{{ post.location }}</span>{% endif %}</span>
                 {% if post.name %}<span class="leader">{{ post.name }}{% if post.company %}, {{ post.company }}{% endif %}</span>{% endif %}
-                {% if post.content %}<span class="expanded">{{ post.content }}</span>{% endif %}
+                {% if post.expand %}
+                <span class="toggle"></span>
+                <span class="expanded" style="display: none;">{{ post.content }}</span>
+                {% endif %}
               </span>
             </li>
             {% endfor %}
@@ -54,12 +59,15 @@ title: 2013 Conference
           {% if site.categories.day1 %}
           <ul id="day1" class="planner">
             {% for post in site.categories.day1 %}
-            <li class="toggle">
+            <li>
               <span class="time">{{ post.hour}}</span>
               <span class="talk">
                 <span class="session">{{ post.title }}{% if post.location %}<span class="location">{{ post.location }}</span>{% endif %}</span>
                 {% if post.name %}<span class="leader">{{ post.name }}{% if post.company %}, {{ post.company }}{% endif %}</span>{% endif %}
-                {% if post.content %}<span class="expanded">{{ post.content }}</span>{% endif %}
+                {% if post.expand %}
+                <span class="toggle"></span>
+                <span class="expanded" style="display: none;">{{ post.content }}</span>
+                {% endif %}
               </span>
             </li>
             {% endfor %}
@@ -68,12 +76,15 @@ title: 2013 Conference
           {% if site.categories.day2 %}
           <ul id="day2" class="planner">
             {% for post in site.categories.day2 %}
-            <li class="toggle">
+            <li>
               <span class="time">{{ post.hour}}</span>
               <span class="talk">
                 <span class="session">{{ post.title }}{% if post.location %}<span class="location">{{ post.location }}</span>{% endif %}</span>
                 {% if post.name %}<span class="leader">{{ post.name }}{% if post.company %}, {{ post.company }}{% endif %}</span>{% endif %}
-                {% if post.content %}<span class="expanded">{{ post.content }}</span>{% endif %}
+                {% if post.expand %}
+                <span class="toggle"></span>
+                <span class="expanded" style="display: none;">{{ post.content }}</span>
+                {% endif %}
               </span>
             </li>
             {% endfor %}
@@ -81,7 +92,8 @@ title: 2013 Conference
           {% endif %}
         </div>
       </article>
-    <section>
+    </section>
+    
     <section id="venue">
       <article>
         <div class="columns large-12">
@@ -89,20 +101,94 @@ title: 2013 Conference
           <p>A beautiful location close to the nation's capital</p>
           <div class="columns large-6">
             <img src="assets/images/nationalharbor.jpg" />
-            <h3>Gaylord National Resort &amp; Convention Center</h3>
-            <p>201 Waterfront St, Fort Washington, MD 20745</p>
           </div>
           <div class="columns large-6">
-            <div id="map_canvas"></div>
+            <span class="address">
+              <h3>Gaylord National Resort &amp; Convention Center</h3>
+              <h4>{{ site.contact.address }}</h4>
+              <p>Ideally situated somewhere in the DC Metro Area, this convention center is amazing</p>
+            </span>
           </div>
+          <div id="map_canvas"></div>
         </div>
       </article>
-    <section>
-    <section id="partners">
+    </section>
+    
+    <section id="sponsors">
       <article>
+        <div class="columns large-12">
+          <h2>The Sponsors</h2>
+          <p>Our proud sponsors and supporters who made this event possible</p>
+          {% if site.categories.diamond %}
+          <div id="diamond" class="sponsors">
+            <h3>Diamond</h3>
+          {% for post in site.categories.diamond %}
+            {% if post.logo %}
+            <a href="{{ post.www }}" target="_blank" class="sponsorlogo"><img src="{{ post.logo }}" title="{{ post.title }}" /></a>
+            {% endif %}
+          {% endfor %}
+          </div>
+          {% endif %}
+          {% if site.categories.pearl %}
+          <div id="pearl" class="sponsors">
+            <h3>Pearl</h3>
+          {% for post in site.categories.pearl %}
+            {% if post.logo %}
+            <a href="{{ post.www }}" target="_blank" class="sponsorlogo"><img src="{{ post.logo }}" title="{{ post.title }}" /></a>
+            {% endif %}
+          {% endfor %}
+          </div>
+          {% endif %}
+          {% if site.categories.platinum %}
+          <div id="platinum" class="sponsors">
+            <h3>Platinum</h3>
+          {% for post in site.categories.platinum %}
+            {% if post.logo %}
+            <a href="{{ post.www }}" target="_blank" class="sponsorlogo"><img src="{{ post.logo }}" title="{{ post.title }}" /></a>
+            {% endif %}
+          {% endfor %}
+          </div>
+          {% endif %}
+          {% if site.categories.gold %}
+          <div id="gold" class="sponsors">
+            <h3>Gold</h3>
+          {% for post in site.categories.gold %}
+            {% if post.logo %}
+            <a href="{{ post.www }}" target="_blank" class="sponsorlogo"><img src="{{ post.logo }}" title="{{ post.title }}" /></a>
+            {% endif %}
+          {% endfor %}
+          </div>
+          {% endif %}
+          {% if site.categories.silver %}
+          <div id="silver" class="sponsors">
+            <h3>silver</h3>
+          {% for post in site.categories.silver %}
+            {% if post.logo %}
+            <a href="{{ post.www }}" target="_blank" class="sponsorlogo"><img src="{{ post.logo }}" title="{{ post.title }}" /></a>
+            {% endif %}
+          {% endfor %}
+          </div>
+          {% endif %}
+          {% if site.categories.bronze %}
+          <div id="bronze" class="sponsors">
+            <h3>bronze</h3>
+          {% for post in site.categories.bronze %}
+            {% if post.logo %}
+            <a href="{{ post.www }}" target="_blank" class="sponsorlogo"><img src="{{ post.logo }}" title="{{ post.title }}" /></a>
+            {% endif %}
+          {% endfor %}
+          </div>
+          {% endif %}
+          
+          {% if site.categories.partners %}
+          <div id="partners" class="sponsors">
+            <h3>partners</h3>
+          {% for post in site.categories.partners %}
+            {% if post.logo %}
+            <a href="{{ post.www }}" target="_blank" class="sponsorlogo"><img src="{{ post.logo }}" title="{{ post.title }}" /></a>
+            {% endif %}
+          {% endfor %}
+          </div>
+          {% endif %}   
       </article>
-    <section>
-    <section id="register">
-      <article>
-      </article>
-    <section>
+    </section>

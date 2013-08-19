@@ -5,18 +5,30 @@
 /* Sections
 ================================================== */
 
-  section, footer {
+  section {
     position: relative;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     background: @white;
     z-index: 1;
+    margin:0;
+    text-align: center;
+    border-bottom: 1px solid darken(@offwhite, 5%);
     
     h2 {
       text-align: center;
       text-transform: uppercase;
       font-weight: bold;
+      color: @colour1;
     }
+  }
+  #top {
+    display: block;
+    position: absolute;
+    top: 0;
+    height: 0;
+    width: 100%;
+    content: " ";
   }
 
 /* Nav Menus
@@ -28,23 +40,27 @@
     top: 0;
     z-index: 100;
     border-bottom: 5px solid @colour1;
+    text-align: center;
     a:link, a:visited {
       color: @white;
     }
-    ul {
+    ul#menu {
       list-style: none;
       text-align: center;
-      padding-top: 1em;
-      padding-bottom: 1em;
     }
     li {
       display: inline-block;
-      padding-left: 2em;
-      padding-right: 1em;
+      padding: 1em;
+      a:hover {
+        color: @colour1;
+      }
     }
-    .logo {
-      background: @colour2;
+    #showmenu, #top-logo, #mobiletop {
       display: none;
+    }
+    #top-logo {
+      width: 100px;
+      padding-top: 10px;
     }
   }
   
@@ -58,8 +74,21 @@
     top: 0;
     padding-top: 100px;
     height: 100%;
+    max-height: 500px;
     z-index: 0 !important;
     background: @colour2;
+    color: @white;
+    background: url(../images/hero.jpg) no-repeat;
+    .background-size;
+    h1, h3 {
+      text-shadow: 1px 1px 5px #000;
+    }
+    h3 {
+      text-transform: uppercase;
+    }
+    img {
+      width: 420px;
+    }
   }
 
 
@@ -69,6 +98,7 @@
   #speakers {
     margin-top: 500px;
     text-align: center;
+    background: @offwhite;
     
     .speaker {
       position: relative;
@@ -138,19 +168,52 @@
 ================================================== */
 
   #schedule {
-    max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
+    nav.pills {
+      padding-bottom: 2em;
+      a {
+        color: @grey;
+        background: @offwhite;
+        padding: 5px 10px;
+        .radius(5px);
+        .transition;
+        .active {
+          background: @colour1;
+          color: @white;
+        }
+        &:hover {
+          background: @grey;
+          color: @white;
+        }
+      }
+    }
+    a#trig-day0.active, a#trig-day1.active, a#trig-day2.active {
+      background: @colour1;
+      color: @white;
+      cursor: default;
+    }
+    
     ul.planner {
+      max-width: 900px;
       list-style: none;
       text-align: left;
+      margin-left: auto;
+      margin-right: auto;
       
       li {
         padding: 20px 10px 20px 10px;
         display: block;
         border-bottom: 1px dotted @colour1;
+        position: relative;
         &:hover {
           background: @offwhite;
+        }
+        .toggle {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          cursor: pointer;
         }
         .time, .talk {
           display: block;
@@ -177,6 +240,7 @@
               font-weight: @light;
             }
             &.expanded {
+              display: block;
               font-size: 80%;
               padding-top: 20px;
               color: @grey;
@@ -192,60 +256,96 @@
     }
   }
 
+/* Venue
+================================================== */
+
+  #venue {
+    background: @offwhite;
+    img {
+      margin-bottom: 40px;
+      padding-right: 20px;
+      padding-left: 20px;
+    }
+    .address {
+      text-align: left;
+      h3 {
+        font-weight: bold;
+      }
+      h4 {
+        color: @colour1;
+      }
+      p {
+        padding-top: 1em;
+        font-size: 90%;
+        color: @grey;
+        padding-bottom: 1em;
+      }
+    }
+    #map_canvas {
+      width: 100%;
+      height: 400px;
+    }
+  }
 
 
-#map_canvas {
-  margin-top: 0;
-  padding-top: 0;
-  width: 100%;
-  height: 400px;
-}
+/* Sponspors
+================================================== */
+
+  #sponsors {
+    
+    a.sponsorlogo img {
+      width: 120px;
+      padding: 20px;
+      .opacity(0.8);
+      .transition;
+      &:hover {
+        .opacity(1);
+        .scale(1.15);
+      }
+    }
+    #partners.sponsors {
+      border-bottom: none !important;
+    }
+    .sponsors {
+      border-bottom: 1px solid @offwhite;
+      padding: 20px 0;
+      h3 {
+        text-transform: uppercase;
+        font-weight: @regular;
+        color: @grey;
+      }
+    }
+  }
+
 
 /* Footer 
 ================================================== */
 
-  footer {
-    background: @offwhite;
-    
-    h2, a {
-      color: @grey;
-    }
-    a {
-      display: block;
-      font-weight: @light;
-      padding-bottom: 5px;
-    }
-    a:hover {
-      color: @colour1;
-    }
-    i {
-      margin-right: 10px;
-    }
-    h3 {
-      font-weight: @light;
-      text-transform: uppercase;
-      letter-spacing: 3px;
-      margin-top: 50px;
-      margin-bottom: 20px;
-      font-size: 80%;
-      color: @colour1;
-    }
-  }
- 
  /* Set footerHeight to TOTAL height of all divs to be sticky */
- @footerHeight: 309px;
+ @footerHeight: 42px;
  
  footer#bottom {
    background: @black;
    color: @white;
+   text-align: center;
    font-weight: @thin;
    font-size: 80%;
    padding-top: 15px;
    padding-bottom: 15px;
    
    span {
+     width: 100%;
      padding-right: 20px;
      color: @grey;
+     a {
+      color: @grey;
+       &:hover {
+         color: @white;
+         span.heart {
+           color: @red;
+         }
+       }
+     }
    }
  }
   #push {
