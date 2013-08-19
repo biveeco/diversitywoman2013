@@ -6,9 +6,9 @@
     });
   });
 
-$(".expanded").slideUp("slow");
-$(".toggle").click(function(){
-    $(this).next(".expanded").slideToggle("slow");
+//$(".expanded").slideUp("slow");
+$("li.toggle").click(function(){
+    $(this).next("span").slideToggle("slow");
   });
 
 /*
