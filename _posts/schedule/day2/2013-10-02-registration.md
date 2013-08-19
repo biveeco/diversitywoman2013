@@ -1,10 +1,10 @@
 ---
-date: 2013-10-02 22:30
+date: 2013-10-03 22:30
 hour: 07:30 - 18:00
-title: Registration
+title: Registration0
 name:
 company:
 location: Somewhere
-categories: day1
+categories: day2
 expand:
 ---
