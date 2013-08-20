@@ -1,17 +1,47 @@
 /*
- * Misc jqueries - Slidetoggle to show mobile menu
+ * Scrollto (WIP)
  */
-  $('#showmenu').click(function() {
-    $('ul#menu').slideToggle('fast');
-  });
 
+
+
+
+/*
+ * Slidetoggle to show mobile menu
+ */
+ 
+//Closes mobile menu on link click (WIP)
+/* $(window).resize(function(){
+	var width = $(window).width();
+	if (width < 768) {
+	  $('ul#menu a').click(function() {
+      $('ul#menu li').slideUp('fast');
+    });	
+  } else {
+	}
+});
+*/
+
+//Mobile menu toggle
+$('#showmenu').click(function() {
+  $('ul#menu').slideToggle('fast');
+});
+
+
+/*
+ * Slidetoggle to for expanded Schedule information
+ */
 $(document).on("click", ".toggle", function(event){
     event.preventDefault();
     $(this).closest('span').next('.expanded').slideToggle('slow');
 });
 
+/*
+ * Tabbed browsing for Day Events
+ */
+ 
 $('#day1, #day2').fadeOut('fast');
 $('a#trig-day0').addClass('active');
+
 $('a#trig-day0').click(function(event) {
   event.preventDefault();
   $('a#trig-day0').addClass('active');
@@ -42,50 +72,26 @@ $('a#trig-day2').click(function(event) {
  */
 
 var map;
-var office = new google.maps.LatLng(38.782494,-77.016485);
+var address = new google.maps.LatLng(38.782494,-77.016485);
 
 function initialize() {
 
   var mapOptions = {
-    zoom:16,
-    center: office,
+    zoom:13,
+    center: address,
     mapTypeControlOptions: {
        mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'div']
     }
   };
+  
   map = new google.maps.Map(document.getElementById("map_canvas"),
       mapOptions);
 
-  var styledMapOptions = {
-      name: "Diversity Woman 2013"
-  }
-
-  map.mapTypes.set('div');
-  map.setMapTypeId('div');
-
-
-				var companyImage = new google.maps.MarkerImage('/wp-content/themes/div/img/pin.png',
-					new google.maps.Size(250.0, 100.0),
-                    new google.maps.Point(0, 0),
-                    new google.maps.Point(125.0, 50.0)
-				);
-
-				var companyShadow = new google.maps.MarkerImage('/wp-content/themes/div/img/shadow.png',
-					new google.maps.Size(301.0, 100.0),
-                    new google.maps.Point(0, 0),
-                    new google.maps.Point(125.0, 50.0)
-				);
-
-				var companyPos = office;
-
-				var companyMarker = new google.maps.Marker({
-					position: companyPos,
-					map: map,
-					icon: companyImage,
-					shadow: companyShadow,
-					title:"div",
-					zIndex: 3});
+	var marker = new google.maps.Marker({
+		position: address,
+		map: map,
+		title:"div",
+		zIndex: 3
+  });
 
 }
-
-
