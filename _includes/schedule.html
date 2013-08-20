@@ -1,0 +1,64 @@
+    <section id="schedule">
+      <article>
+        <div class="columns large-12">
+          <h2>The Schedule</h2>
+          <p>Here is what we plan to explore on the day</p>
+          <nav class="pills">
+            <a href="#day0" id="trig-day0">Oct 1</a>
+            <a href="#day1" id="trig-day1">Oct 2</a>
+            <a href="#day2" id="trig-day2">Oct 3</a>
+          </nav>
+          {% if site.categories.day0 %}
+          <ul id="day0" class="planner">
+            {% for post in site.categories.day0 %}
+            <li>
+              <span class="time">{{ post.hour}}</span>
+              <span class="talk">
+                <span class="session">{{ post.title }}{% if post.location %}<span class="location">{{ post.location }}</span>{% endif %}</span>
+                {% if post.name %}<span class="leader">{{ post.name }}{% if post.company %}, {{ post.company }}{% endif %}</span>{% endif %}
+                {% if post.expand %}
+                <span class="toggle"></span>
+                <span class="expanded" style="display: none;">{{ post.content }}</span>
+                {% endif %}
+              </span>
+            </li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+          {% if site.categories.day1 %}
+          <ul id="day1" class="planner">
+            {% for post in site.categories.day1 %}
+            <li>
+              <span class="time">{{ post.hour}}</span>
+              <span class="talk">
+                <span class="session">{{ post.title }}{% if post.location %}<span class="location">{{ post.location }}</span>{% endif %}</span>
+                {% if post.name %}<span class="leader">{{ post.name }}{% if post.company %}, {{ post.company }}{% endif %}</span>{% endif %}
+                {% if post.expand %}
+                <span class="toggle"></span>
+                <span class="expanded" style="display: none;">{{ post.content }}</span>
+                {% endif %}
+              </span>
+            </li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+          {% if site.categories.day2 %}
+          <ul id="day2" class="planner">
+            {% for post in site.categories.day2 %}
+            <li>
+              <span class="time">{{ post.hour}}</span>
+              <span class="talk">
+                <span class="session">{{ post.title }}{% if post.location %}<span class="location">{{ post.location }}</span>{% endif %}</span>
+                {% if post.name %}<span class="leader">{{ post.name }}{% if post.company %}, {{ post.company }}{% endif %}</span>{% endif %}
+                {% if post.expand %}
+                <span class="toggle"></span>
+                <span class="expanded" style="display: none;">{{ post.content }}</span>
+                {% endif %}
+              </span>
+            </li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+        </div>
+      </article>
+    </section>

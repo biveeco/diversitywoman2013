@@ -381,6 +381,59 @@ header img {
   font-style: normal;
   font-size: 90%;
 }
+/* Speaker Page
+================================================== */
+#profile .imagecontainer {
+  margin-top: 50px;
+  width: 220px;
+  height: 220px;
+  overflow: hidden;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  background-clip: padding-box;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  display: inline-block;
+}
+#profile .imagecontainer img {
+  width: 220px;
+  height: auto;
+}
+#profile ul#connect {
+  list-style: none;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+#profile li {
+  display: inline-block;
+}
+#profile li a {
+  color: #89949b;
+  margin: 0 5px;
+}
+#profile li a i {
+  border: 1px solid #89949b;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  background-clip: padding-box;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  padding: 10px;
+}
+#profile li a:hover {
+  color: #ff4000;
+}
+#profile li a:hover i {
+  border: 1px solid #ff4000;
+}
+#profile p {
+  max-width: 600px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
 /* Schedule
 ================================================== */
 #schedule nav.pills {
@@ -508,9 +561,9 @@ header img {
   width: 100%;
   height: 400px;
 }
-/* Sponspors
+/* Sponsors
 ================================================== */
-#sponsors a.sponsorlogo img {
+section#sponsors a.sponsorlogo img {
   width: 120px;
   padding: 20px;
   opacity: 0.8;
@@ -525,7 +578,7 @@ header img {
   -o-transition: all 300ms ease-in-out;
   -ms-transition: all 300ms ease-in-out;
 }
-#sponsors a.sponsorlogo img:hover {
+section#sponsors a.sponsorlogo img:hover {
   opacity: 1;
   -moz-opacity: 1;
   -webkit-opacity: 1;
@@ -537,17 +590,83 @@ header img {
   -ms-transform: scale(1.15);
   -o-transform: scale(1.15);
 }
-#sponsors #partners.sponsors {
+section#sponsors #partners.sponsors {
   border-bottom: none !important;
 }
-#sponsors .sponsors {
+section#sponsors .sponsors {
   border-bottom: 1px solid #f2f2f2;
   padding: 20px 0;
 }
-#sponsors .sponsors h3 {
+section#sponsors .sponsors h3 {
   text-transform: uppercase;
   font-weight: 400;
   color: #89949b;
+}
+/* Registration Button
+================================================== */
+section#regbutton .counter {
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+section#regbutton .counter .number {
+  font-size: 550%;
+  display: block;
+  color: #89949b;
+  text-shadow: -1px 1px 0px #576167;
+}
+section#regbutton .counter .text {
+  color: #ff4000;
+}
+section#regbutton .registerbutton {
+  -moz-box-shadow: inset 0px 1px 0px 0px #f5978e;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #f5978e;
+  box-shadow: inset 0px 1px 0px 0px #f5978e;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ff4000), color-stop(1, #c62d1f));
+  background: -moz-linear-gradient(center top, #ff4000 5%, #c62d1f 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff4000', endColorstr='#c62d1f');
+  background-color: #ff4000;
+  -webkit-border-top-left-radius: 6px;
+  -moz-border-radius-topleft: 6px;
+  border-top-left-radius: 6px;
+  -webkit-border-top-right-radius: 6px;
+  -moz-border-radius-topright: 6px;
+  border-top-right-radius: 6px;
+  -webkit-border-bottom-right-radius: 6px;
+  -moz-border-radius-bottomright: 6px;
+  border-bottom-right-radius: 6px;
+  -webkit-border-bottom-left-radius: 6px;
+  -moz-border-radius-bottomleft: 6px;
+  border-bottom-left-radius: 6px;
+  text-indent: 0px;
+  border: 1px solid #d02718;
+  display: inline-block;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: normal;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 0px #810e05;
+  transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -webkit-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+}
+section#regbutton .registerbutton:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c62d1f), color-stop(1, #ff4000));
+  background: -moz-linear-gradient(center top, #c62d1f 5%, #ff4000 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c62d1f', endColorstr='#ff4000');
+  background-color: #c62d1f;
+}
+section#regbutton .registerbutton:active {
+  position: relative;
+  top: 1px;
 }
 /* Footer 
 ================================================== */
@@ -841,21 +960,12 @@ article article:after {
   font-weight: normal;
   font-style: normal;
 }
-[data-icon]:before {
-  font-family: 'icomoon';
-  content: attr(data-icon);
-  speak: none;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-}
+.icon-bio,
 .icon-facebook,
 .icon-twitter,
-.icon-github,
-.icon-arrow-right,
-.icon-checkmark {
+.icon-linkedin,
+.icon-plus,
+.icon-web {
   font-family: 'icomoon';
   speak: none;
   font-style: normal;
@@ -865,40 +975,23 @@ article article:after {
   line-height: 1;
   -webkit-font-smoothing: antialiased;
 }
-.icon-facebook:before {
+.icon-bio:before {
   content: "\e000";
 }
-.icon-twitter:before {
+.icon-facebook:before {
   content: "\e001";
 }
-.icon-github:before {
+.icon-twitter:before {
   content: "\e002";
 }
-.icon-arrow-right:before {
-  content: "\e003";
-}
-.icon-checkmark:before {
+.icon-linkedin:before {
   content: "\e004";
 }
-/* Social Colours
-================================================== */
-.fb {
-  background: #;
+.icon-plus:before {
+  content: "\e005";
 }
-.tw {
-  background: #;
-}
-.gp {
-  background: #;
-}
-.sk {
-  background: #;
-}
-.pi {
-  background: #;
-}
-.gt {
-  background: #;
+.icon-web:before {
+  content: "\e003";
 }
 /* Responsive
 ================================================== */
