@@ -1,10 +1,10 @@
 ---
-date: 2013-10-02 23:00
+date: 2013-10-03 23:00
 hour: 06:00 - 07:00
-title: Mini Boot Camp
+title: Mini Boot Camp2
 name: Provided by UPMC
 company:
-categories: day1
+categories: day2
 expand: y
 ---
 
