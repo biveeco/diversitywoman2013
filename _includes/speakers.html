@@ -6,18 +6,20 @@
           {% for post in site.categories.speakers %}
           <div class="speaker">
             <div class="front">
-              <img src="{{ post.image }}" />
+              <div class="imagecontainer"><img src="{{ post.image }}" /></div>
               <h3>{{ post.name }}</h3>
               <h4>{{ post.title }}</h4>
             </div>
             <div class="back">
               <h3>{{ post.name }}</h3>
               <h4>{{ post.title }}</h4>
-              <p>{{ post.teaser }}</p>  
-              <a href="{{ post.url }}" target="_self" title="Read More"><i class="icon-plus"></i></a>
-              {% if post.tw %}<a href="http://www.twitter.com/{{ post.tw }}" target="_blank"><i class="icon-twitter"></i></a>{% endif %}
-              {% if post.in %}<a href="http://www.linkedin.com/in/{{ post.in }}" target="_blank"><i class="icon-linkedin"></i></a>{% endif %} 
-              {% if post.ww %}<a href="{{ post.ww }}" target="_blank"><i class="icon-web"></i></a>{% endif %}
+              <p>{{ post.teaser }}</p>
+              <div class="linkgroup">
+                <a href="{{ post.url }}" target="_self" title="Read More"><i class="icon-plus"></i></a>
+                {% if post.tw %}<a href="http://www.twitter.com/{{ post.tw }}" target="_blank"><i class="icon-twitter"></i></a>{% endif %}
+                {% if post.in %}<a href="http://www.linkedin.com/in/{{ post.in }}" target="_blank"><i class="icon-linkedin"></i></a>{% endif %} 
+                {% if post.ww %}<a href="{{ post.ww }}" target="_blank"><i class="icon-web"></i></a>{% endif %}
+              </div>
             </div>
           </div>
           {% endfor %}
