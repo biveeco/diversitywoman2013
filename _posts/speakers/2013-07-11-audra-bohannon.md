@@ -1,5 +1,5 @@
 ---
-layout: profile
+layout: speaker
 date: 2013-07-11
 categories: speakers
 name: Audra Bohannon
