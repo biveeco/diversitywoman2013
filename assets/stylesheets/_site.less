@@ -164,6 +164,54 @@
     }
   }
 
+/* Speaker Page
+================================================== */
+
+  #profile {
+    .imagecontainer {
+      margin-top: 50px;
+      width: 220px;
+      height: 220px; 
+      overflow: hidden;
+      .radius(50%);
+      display: inline-block;
+      img {
+        width: 220px;
+        height: auto; 
+      }
+    }
+    ul#connect {
+      list-style: none;
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+    li {
+      display: inline-block;
+      a {
+        color: @grey;
+        margin: 0 5px;
+        i {
+          border: 1px solid @grey;
+          .radius(50%);
+          padding: 10px; 
+        }
+        &:hover {
+          color: @colour1;
+          i {
+            border: 1px solid @colour1;
+          }
+        }
+      }
+    }
+    p {
+      max-width: 600px;
+      text-align: left;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+
 /* Schedule
 ================================================== */
 
@@ -288,11 +336,10 @@
   }
 
 
-/* Sponspors
+/* Sponsors
 ================================================== */
 
-  #sponsors {
-    
+  section#sponsors {
     a.sponsorlogo img {
       width: 120px;
       padding: 20px;
@@ -314,6 +361,72 @@
         font-weight: @regular;
         color: @grey;
       }
+    }
+  }
+
+/* Registration Button
+================================================== */
+
+  section#regbutton {
+  
+    .counter {
+      padding-top: 10px;
+      padding-bottom: 40px;
+      .number {
+        font-size: 550%;
+        display: block;
+        color: @grey;
+        text-shadow: -1px 1px 0px darken(@grey, 20%);
+      }
+      .text{
+        color: @colour1;
+      }
+    }
+    .registerbutton {
+    	-moz-box-shadow:inset 0px 1px 0px 0px #f5978e;
+    	-webkit-box-shadow:inset 0px 1px 0px 0px #f5978e;
+    	box-shadow:inset 0px 1px 0px 0px #f5978e;
+    	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ff4000), color-stop(1, #c62d1f) );
+    	background:-moz-linear-gradient( center top, #ff4000 5%, #c62d1f 100% );
+    	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff4000', endColorstr='#c62d1f');
+    	background-color:#ff4000;
+    	-webkit-border-top-left-radius:6px;
+    	-moz-border-radius-topleft:6px;
+    	border-top-left-radius:6px;
+    	-webkit-border-top-right-radius:6px;
+    	-moz-border-radius-topright:6px;
+    	border-top-right-radius:6px;
+    	-webkit-border-bottom-right-radius:6px;
+    	-moz-border-radius-bottomright:6px;
+    	border-bottom-right-radius:6px;
+    	-webkit-border-bottom-left-radius:6px;
+    	-moz-border-radius-bottomleft:6px;
+    	border-bottom-left-radius:6px;
+    	text-indent:0px;
+    	border:1px solid #d02718;
+    	display:inline-block;
+    	color:#ffffff;
+    	font-family:Arial;
+    	font-size:15px;
+    	font-weight:bold;
+    	font-style:normal;
+    	height:50px;
+    	line-height:50px;
+    	padding-left: 20px;
+    	padding-right: 20px;
+    	text-decoration:none;
+    	text-align:center;
+    	text-shadow:1px 1px 0px #810e05;
+    	.transition;
+    }
+    .registerbutton:hover {
+    	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #c62d1f), color-stop(1, #ff4000) );
+    	background:-moz-linear-gradient( center top, #c62d1f 5%, #ff4000 100% );
+    	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c62d1f', endColorstr='#ff4000');
+    	background-color:#c62d1f;
+    }.registerbutton:active {
+    	position:relative;
+    	top:1px;
     }
   }
 
