@@ -31,3 +31,7 @@ assets:
   img: '/assets/images/'
   css: '/assets/stylesheets/'
   js: '/assets/javascripts/'
+
+eventbrite:
+  event-id: '7020860583'
+  app-key: '4HSDJIEFIFGXFYAM2Z'
