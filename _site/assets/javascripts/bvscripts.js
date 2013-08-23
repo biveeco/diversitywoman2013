@@ -94,4 +94,30 @@ function initialize() {
 		zIndex: 3
   });
 
+/*
+ * EventBrite Data connection
+ */
+ 
+      $('document').ready(function(){
+        Eventbrite({'app_key':'{{ site.eventbrite.app-key }}'}, function(eb_client){
+            // parameters to pass to the API
+            var params = {'id': '{{ site.eventbrite.event-id }}', 'only_display' : 'tickets'};
+            // make a client request, provide a callback that will handle the response data
+            eb_client.event_get( params, function(response){
+
+              //parse xml to get # of tickets available
+              var xml = response;
+                  xmlDoc = $.parseXML( xml ),
+                  $xml = $( xmlDoc ),
+                  $quantity_available = $xml.find( "quantity_available" );
+              
+              console.log(response);
+
+              // Display # of tickets available
+              $('#quantity_available').html( $quantity_available.text );
+            });
+        });
+      });
+
+
 }
