@@ -4,13 +4,13 @@
           <h2>The Schedule</h2>
           <p>Here is what we plan to explore on the day</p>
           <nav class="pills">
-            <a href="#day0" id="trig-day0">Oct 1</a>
+            <a href="#day0" id="trig-day0">Oct 1 - Pre-Conference</a>
             <a href="#day1" id="trig-day1">Oct 2</a>
             <a href="#day2" id="trig-day2">Oct 3</a>
           </nav>
           {% if site.categories.day0 %}
           <ul id="day0" class="planner">
-            {% for post in site.categories.day0 %}
+            {% for post in site.categories.day0 reversed %}
             <li>
               <span class="time">{{ post.hour}}</span>
               <span class="talk">
@@ -27,7 +27,7 @@
           {% endif %}
           {% if site.categories.day1 %}
           <ul id="day1" class="planner">
-            {% for post in site.categories.day1 %}
+            {% for post in site.categories.day1 reversed %}
             <li>
               <span class="time">{{ post.hour}}</span>
               <span class="talk">
@@ -44,7 +44,7 @@
           {% endif %}
           {% if site.categories.day2 %}
           <ul id="day2" class="planner">
-            {% for post in site.categories.day2 %}
+            {% for post in site.categories.day2 reversed %}
             <li>
               <span class="time">{{ post.hour}}</span>
               <span class="talk">

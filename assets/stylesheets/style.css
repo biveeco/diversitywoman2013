@@ -276,7 +276,7 @@ nav#main #top-logo {
 }
 /* Header
 ================================================== */
-header {
+header#site_header {
   text-align: center;
   position: fixed;
   top: 0;
@@ -570,8 +570,13 @@ header img {
   padding-top: 1em;
   font-size: 90%;
   color: #89949b;
-  padding-bottom: 1em;
+  padding-bottom: 0px;
 }
+
+#venue .address a {
+  color: #444444;
+}
+
 #venue #map_canvas {
   width: 100%;
   height: 400px;
@@ -579,7 +584,7 @@ header img {
 /* Sponsors
 ================================================== */
 section#sponsors a.sponsorlogo img {
-  width: 120px;
+  width: 200px;
   padding: 20px;
   opacity: 0.8;
   -moz-opacity: 0.8;
