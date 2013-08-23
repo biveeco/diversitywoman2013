@@ -276,7 +276,7 @@ nav#main #top-logo {
 }
 /* Header
 ================================================== */
-header {
+header#site_header {
   text-align: center;
   position: fixed;
   top: 0;
@@ -292,14 +292,14 @@ header {
   -moz-background-size: cover;
   -o-background-size: cover;
 }
-header h1,
-header h3 {
+header#site_header h1,
+header#site_header h3 {
   text-shadow: 1px 1px 5px #000;
 }
-header h3 {
+header#site_header h3 {
   text-transform: uppercase;
 }
-header img {
+header#site_header img {
   width: 420px;
 }
 /* Speakers
