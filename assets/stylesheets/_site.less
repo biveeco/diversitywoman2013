@@ -356,8 +356,12 @@
 
   section#sponsors {
     a.sponsorlogo img {
-      width: 120px;
+      width: 100%;
+      max-width: 240px;
+      height: auto;
+      max-height: 240px;
       padding: 20px;
+      vertical-align: middle;
       .opacity(0.8);
       .transition;
       &:hover {
