@@ -99,9 +99,9 @@ function initialize() {
  */
  
       $('document').ready(function(){
-        Eventbrite({'app_key':'{{ site.eventbrite.appkey }}'}, function(eb_client){
+        Eventbrite({'app_key':'{{ site.eventbrite.app-key }}'}, function(eb_client){
             // parameters to pass to the API
-            var params = {'id': '{{ site.eventbrite.eventid }}', 'only_display' : 'tickets'};
+            var params = {'id': '{{ site.eventbrite.event-id }}', 'only_display' : 'tickets'};
             // make a client request, provide a callback that will handle the response data
             eb_client.event_get( params, function(response){
 

@@ -570,12 +570,11 @@ header img {
   padding-top: 1em;
   font-size: 90%;
   color: #89949b;
-  padding-bottom: 1em;
+  padding-bottom: 0px;
 }
 
 #venue .address a {
   color: #444444;
-  text-decoration: underline;
 }
 
 #venue #map_canvas {
@@ -585,7 +584,7 @@ header img {
 /* Sponsors
 ================================================== */
 section#sponsors a.sponsorlogo img {
-  width: 120px;
+  width: 200px;
   padding: 20px;
   opacity: 0.8;
   -moz-opacity: 0.8;
