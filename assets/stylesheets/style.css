@@ -514,7 +514,7 @@ header#site_header img {
   display: block;
 }
 #schedule ul.planner li .talk {
-  padding-left: 150px;
+  padding-left: 180px;
 }
 #schedule ul.planner li .talk span {
   display: block;
@@ -527,6 +527,9 @@ header#site_header img {
 }
 #schedule ul.planner li .talk span.session {
   color: #ff4000;
+}
+#schedule ul.planner li .talk span.child {
+  color: #666666;
 }
 #schedule ul.planner li .talk span .location {
   font-size: 80%;
@@ -544,7 +547,7 @@ header#site_header img {
 }
 #schedule ul.planner li .time {
   float: left;
-  width: 150px;
+  width: 180px;
   font-weight: 300;
 }
 /* Venue
@@ -985,12 +988,17 @@ article article:after {
   font-weight: normal;
   font-style: normal;
 }
-.icon-bio,
+.icon-user,
 .icon-facebook,
 .icon-twitter,
 .icon-linkedin,
 .icon-plus,
-.icon-web {
+.icon-earth,
+.icon-chevron-right,
+.icon-angle-right,
+.icon-caret-right,
+.icon-long-arrow-right,
+.icon-chevron-sign-right {
   font-family: 'icomoon';
   speak: none;
   font-style: normal;
@@ -1000,7 +1008,7 @@ article article:after {
   line-height: 1;
   -webkit-font-smoothing: antialiased;
 }
-.icon-bio:before {
+.icon-user:before {
   content: "\e000";
 }
 .icon-facebook:before {
@@ -1015,8 +1023,23 @@ article article:after {
 .icon-plus:before {
   content: "\e005";
 }
-.icon-web:before {
+.icon-earth:before {
   content: "\e003";
+}
+.icon-chevron-right:before {
+  content: "\f054";
+}
+.icon-angle-right:before {
+  content: "\f105";
+}
+.icon-caret-right:before {
+  content: "\f0da";
+}
+.icon-long-arrow-right:before {
+  content: "\f178";
+}
+.icon-chevron-sign-right:before {
+  content: "\f138";
 }
 /* Responsive
 ================================================== */

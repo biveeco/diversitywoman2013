@@ -14,7 +14,7 @@
             <li>
               <span class="time">{{ post.hour}}</span>
               <span class="talk">
-                <span class="session">{{ post.title }}{% if post.location %}<span class="location">{{ post.location }}</span>{% endif %}</span>
+                <span class="session {% if post.child %} child {% endif %}"> {% if post.child %} <i class="icon-chevron-sign-right"></i> {% endif %} {{ post.title }}{% if post.location %}<span class="location">{{ post.location }}</span>{% endif %}</span>
                 {% if post.name %}<span class="leader">{{ post.name }}{% if post.company %}, {{ post.company }}{% endif %}</span>{% endif %}
                 {% if post.expand %}
                 <span class="toggle"></span>
@@ -31,7 +31,7 @@
             <li>
               <span class="time">{{ post.hour}}</span>
               <span class="talk">
-                <span class="session">{{ post.title }}{% if post.location %}<span class="location">{{ post.location }}</span>{% endif %}</span>
+                <span class="session {% if post.child %} child {% endif %}"> {% if post.child %} <i class="icon-chevron-sign-right"></i> {% endif %} {{ post.title }}{% if post.location %}<span class="location">{{ post.location }}</span>{% endif %}</span>
                 {% if post.name %}<span class="leader">{{ post.name }}{% if post.company %}, {{ post.company }}{% endif %}</span>{% endif %}
                 {% if post.expand %}
                 <span class="toggle"></span>
@@ -48,7 +48,7 @@
             <li>
               <span class="time">{{ post.hour}}</span>
               <span class="talk">
-                <span class="session">{{ post.title }}{% if post.location %}<span class="location">{{ post.location }}</span>{% endif %}</span>
+                <span class="session {% if post.child %} child {% endif %}"> {% if post.child %} <i class="icon-chevron-sign-right"></i> {% endif %} {{ post.title }}{% if post.location %}<span class="location">{{ post.location }}</span>{% endif %}</span>
                 {% if post.name %}<span class="leader">{{ post.name }}{% if post.company %}, {{ post.company }}{% endif %}</span>{% endif %}
                 {% if post.expand %}
                 <span class="toggle"></span>
