@@ -31,6 +31,8 @@ assets:
   img: '/assets/images/'
   css: '/assets/stylesheets/'
   js: '/assets/javascripts/'
+  speaker: '/assets/images/speakers/'
+  sponsor: '/assets/images/sponsors/'
 
 eventbrite:
   event-id: '7020860583'

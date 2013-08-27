@@ -6,7 +6,7 @@
           {% for post in site.categories.speakers %}
           <div class="speaker">
             <div class="front">
-              <div class="imagecontainer"><img src="{{ post.image }}" /></div>
+              <div class="imagecontainer"><img src="{{ site.assets.speaker }}{{ post.image }}" /></div>
               <h3>{{ post.name }}</h3>
               <h4>{{ post.title }}</h4>
             </div>
