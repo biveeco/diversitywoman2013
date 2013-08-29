@@ -7,7 +7,7 @@ title: "Principal, Senior Diversity Consultant"
 image: stoudemire_tyronne.jpg
 published: true
 teaser: "A proven thought leader in the space of diversity with more than 20 years of professional experience, Tyronne brings deep knowledge and commitment to Diversity & Inclusion and Community Relations."
-fb: null
+in: null
 tw: null
 ww: null
 ---

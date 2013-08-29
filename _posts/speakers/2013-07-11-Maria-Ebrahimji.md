@@ -7,7 +7,7 @@ title: "Director and Executive Editorial Producer for Network Booking, CNN"
 image: Ebrahimji_Maria.jpg
 published: true
 teaser: "Maria Ebrahimji is the Director and Executive Editorial Producer for Network Booking at CNN Worldwide."
-fb: ebahimiji
+in: ebahimiji
 tw: null
 ww: null
 ---

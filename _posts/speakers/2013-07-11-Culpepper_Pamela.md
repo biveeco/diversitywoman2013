@@ -7,7 +7,7 @@ title: Senior VP, Global Diversity and Inclusion Officer, PepsiCo
 image: Culpepper_Pamela.jpg
 published: true
 teaser: Pamela Culpepper is senior vice president, Global Diversity and Inclusion officer of PepsiCo. PepsiCo owns the world's largest portfolio of billion-dollar food and beverage brands, including 19 different product lines, each of which generates more than $1 billion in annual retail sales.
-fb:
+in:
 tw: 
 ww:
 ---

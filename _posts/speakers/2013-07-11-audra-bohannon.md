@@ -7,7 +7,7 @@ title: "Senior Partner, Korn/Ferry International"
 image: Bohannon_Audra.jpg
 published: true
 teaser: "Audra Bohannon is a Senior Partner in the Diversity, Inclusion and Talent Optimization practice for Korn/Ferry International, based in the Boston office. “Lead life by design, not by default” is the message that audiences take away from a presentation led by Ms. Bohannon."
-fb: null
+in: test
 tw: null
 ww: null
 ---
@@ -25,5 +25,3 @@ She sits on the human resources committee for the Big Sister Association of Grea
 
 In 2008, Ms. Bohannon was named a Unity First “Visionary Woman of Excellence.”
 Ms. Bohannon holds a bachelor of science degree from Wayne State University.
-
-Test.
