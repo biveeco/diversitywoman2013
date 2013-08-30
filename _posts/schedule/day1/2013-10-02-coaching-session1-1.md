@@ -3,10 +3,9 @@ date: 2013-10-02 11:15
 hour: 
 title: Coaching Session with Renessa Boley
 child: y
-name: 
+name: Corporate Coaching Session
 company: 
 categories: day1 eventbrite
-expand: y
+expand: 
 eventbrite: 8092140811
 ---
-Test

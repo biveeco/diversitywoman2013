@@ -3,7 +3,7 @@ layout: speaker
 date: "2013-07-11 08:30"
 categories: speakers
 name: Tyronne Stoudemire
-title: "Principal, Senior Diversity Consultant"
+title: "Principal, Senior Diversity Consultant, Mercer"
 image: stoudemire_tyronne.jpg
 published: true
 teaser: "A proven thought leader in the space of diversity with more than 20 years of professional experience, Tyronne brings deep knowledge and commitment to Diversity & Inclusion and Community Relations."
