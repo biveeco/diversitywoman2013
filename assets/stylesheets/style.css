@@ -524,6 +524,7 @@ header#site_header img {
 }
 #schedule ul.planner li .talk {
   padding-left: 180px;
+  position: relative;
 }
 #schedule ul.planner li .talk span {
   display: block;
@@ -553,6 +554,11 @@ header#site_header img {
   font-size: 80%;
   padding-top: 20px;
   color: #89949b;
+}
+#schedule ul.planner li .talk span.eventbrite-sub {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 #schedule ul.planner li .time {
   float: left;
@@ -1113,6 +1119,10 @@ article article:after {
   ================================================== */
   #schedule ul.planner li .talk {
     padding-left: 0px;
+  }
+  #schedule ul.planner li .talk span.eventbrite-sub {
+    display: block;
+    position: relative;
   }
   #schedule ul.planner li .time {
     float: none;
