@@ -1,6 +1,6 @@
 ---
 layout: speaker
-date: "2013-07-11 08:30"
+date: "2013-07-20 08:30"
 categories: speakers
 name: Maria Ebrahimji
 title: "Director and Executive Editorial Producer for Network Booking, CNN"

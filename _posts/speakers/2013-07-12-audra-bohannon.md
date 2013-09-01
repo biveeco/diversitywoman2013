@@ -1,6 +1,6 @@
 ---
 layout: speaker
-date: "2013-07-11 08:30"
+date: "2013-07-12 08:30"
 categories: speakers
 name: Audra Bohannon
 title: "Senior Partner, Korn/Ferry International"
