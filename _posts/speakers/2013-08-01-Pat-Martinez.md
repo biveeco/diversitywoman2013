@@ -1,6 +1,6 @@
 ---
 layout: speaker
-date: "2013-07-32 08:30"
+date: "2013-08-01 08:30"
 categories: speakers
 name: Pat Martinez
 title: Partner, i2 Integrated Intelligence

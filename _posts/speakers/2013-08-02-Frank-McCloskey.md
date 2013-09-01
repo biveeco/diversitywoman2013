@@ -1,12 +1,12 @@
 ---
 layout: speaker
-date: "2013-07-33 08:30"
+date: "2013-08-02 08:30"
 categories: speakers
 name: Frank McCloskey
 title: Diversity Women Stars Award Committee Member
 image: McCloskey_Frank.jpg
 published: true
-teaser: Frank McCloskey recently retired from a 38-year career with GeorgiaPower, the largest subsidiary of Southern Company. From 2000 to2010, he served as the first-ever Vice President of Diversity for GeorgiaPower. In this position, McCloskey oversaw the development andimplementation of long-termed, broad-based management andorganizational culture change affecting diversity and inclusion.
+teaser: Frank McCloskey recently retired from a 38-year career with Georgia Power, the largest subsidiary of Southern Company. From 2000 to 2010, he served as the first-ever Vice President of Diversity for Georgia Power. In this position, McCloskey oversaw the development and implementation of long-termed, broad-based management and organizational culture change affecting diversity and inclusion.
 in:
 tw:
 ww: 

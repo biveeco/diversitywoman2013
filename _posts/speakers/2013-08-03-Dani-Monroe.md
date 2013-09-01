@@ -1,6 +1,6 @@
 ---
 layout: speaker
-date: "2013-07-34 08:30"
+date: "2013-08-03 08:30"
 categories: speakers
 name: Dani Monroe
 title: President, Center Focus International, Inc. 

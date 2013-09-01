@@ -1,6 +1,6 @@
 ---
 layout: speaker
-date: "2013-07-36 08:30"
+date: "2013-08-05 08:30"
 categories: speakers
 name: Pilar Montoya
 title: CEO, Society for Hispanic Professional Engineers

@@ -1,6 +1,6 @@
 ---
 layout: speaker
-date: "2013-07-37 08:30"
+date: "2013-08-06 08:30"
 categories: speakers
 name: Elizabeth A. Morrison
 title: Global Director Diversity 
