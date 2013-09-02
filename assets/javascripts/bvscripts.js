@@ -39,8 +39,8 @@ $(document).on("click", ".toggle", function(event){
  * Tabbed browsing for Day Events
  */
  
-$('#day1, #day2').fadeOut('fast');
-$('a#trig-day0').addClass('active');
+$('#day0, #day2').fadeOut('fast');
+$('a#trig-day1').addClass('active');
 
 $('a#trig-day0').click(function(event) {
   event.preventDefault();

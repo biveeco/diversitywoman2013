@@ -1,6 +1,6 @@
 ---
 layout: speaker
-date: 2013-07-11
+date: 2013-07-17
 categories: speakers
 name:  Pamela Culpepper
 title: Senior VP, Global Diversity and Inclusion Officer, PepsiCo
