@@ -1,13 +1,13 @@
 ---
 layout: speaker
-date: "2013-07-20 08:30"
+date: "2013-07-19 08:30"
 categories: speakers
 name: Maria Ebrahimji
 title: "Director and Executive Editorial Producer for Network Booking, CNN"
 image: Ebrahimji_Maria.jpg
 published: true
 teaser: "Maria Ebrahimji is the Director and Executive Editorial Producer for Network Booking at CNN Worldwide."
-in: ebahimiji
+in: null
 tw: null
 ww: null
 ---

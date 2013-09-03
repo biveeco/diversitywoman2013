@@ -1,7 +1,7 @@
 ---
 date: 2013-10-03 11:15
 hour: 11:15 am - 12:30 pm
-title: More than Mentoring: Why Sponsorship is a Critical Strategy
+title: More than Mentoring - Why Sponsorship is a Critical Strategy
 child: y
 name: 
 company:

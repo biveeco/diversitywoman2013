@@ -1,7 +1,7 @@
 ---
 date: 2013-10-03 09:30
 hour: 9:30 - 10:45 am
-title: Morning Plenary Keynotes: Leverage the Tools of Empowerment to Break the Glass Ceiling
+title: Morning Plenary Keynotes - Leverage the Tools of Empowerment to Break the Glass Ceiling
 name: 
 company:
 categories: day2

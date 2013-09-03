@@ -4,7 +4,7 @@ date: "2013-08-20 08:30"
 categories: speakers
 name: Rosalyn Taylor-O'Neale
 title: Principal Consultant, Cook Ross, Inc.
-image: O'Neale_Rosalyn.jpg
+image: ONeale_Rosalyn.jpg
 published: true
 teaser: Rosalyn Taylor O’Neale has more than 30 years experience leading the diversity and inclusion efforts of businesses and organizations in over 25 countries, on four continents.
 in:

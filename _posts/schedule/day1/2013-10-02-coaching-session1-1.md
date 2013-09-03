@@ -1,6 +1,6 @@
 ---
 date: 2013-10-02 11:15
-hour: 11:15 AM - 12:30 PM
+hour: 
 title: Coaching Session with Renessa Boley
 child: y
 name: Corporate Coaching Session

@@ -1,7 +1,7 @@
 ---
 date: 2013-10-03 11:15
 hour: 11:15 am - 12:30 pm
-title: D & I Leadership Session: Training Leadership a Peer to Peer Forum
+title: D & I Leadership Session - Training Leadership a Peer to Peer Forum
 name: 
 company:
 categories: day2

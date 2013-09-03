@@ -7,7 +7,7 @@ title: "Senior Partner, Korn/Ferry International"
 image: Bohannon_Audra.jpg
 published: true
 teaser: "Audra Bohannon is a Senior Partner in the Diversity, Inclusion and Talent Optimization practice for Korn/Ferry International, based in the Boston office. “Lead life by design, not by default” is the message that audiences take away from a presentation led by Ms. Bohannon."
-in: test
+in: null
 tw: null
 ww: null
 ---

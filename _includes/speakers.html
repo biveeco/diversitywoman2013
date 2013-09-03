@@ -5,7 +5,7 @@
           <br /><br /><br />
           <h2>The Speakers</h2>
           <p>We bet you will learn something new</p>
-          {% for post in site.categories.speakers %}
+          {% for post in site.categories.speakers reversed %}
           <div class="speaker">
             <div class="front">
               <div class="imagecontainer"><img src="{{ site.assets.speaker }}{{ post.image }}" /></div>

@@ -1,7 +1,7 @@
 ---
 date: 2013-10-03 11:15
 hour: 11:15 am - 12:30 pm
-title: Breaking down Silos: Capitalizing on Effective Communications Strategies
+title: Breaking down Silos - Capitalizing on Effective Communications Strategies
 child: y
 name: 
 company:
