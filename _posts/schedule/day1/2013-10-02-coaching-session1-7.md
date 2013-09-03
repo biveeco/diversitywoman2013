@@ -1,6 +1,6 @@
 ---
 date: 2013-10-02 11:15
-hour: 
+hour: 11:15 AM - 12:30 PM
 title: Coaching Session with Evy Severino
 child: y
 name: Executive Coaching Session
