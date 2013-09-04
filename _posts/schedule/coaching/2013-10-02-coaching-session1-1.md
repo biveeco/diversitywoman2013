@@ -5,7 +5,7 @@ title: Coaching Session with Renessa Boley
 child: y
 name: Corporate Coaching Session
 company: 
-categories: day1 eventbrite
+categories: coaching eventbrite
 expand: 
 eventbrite: 8092140811
 ---

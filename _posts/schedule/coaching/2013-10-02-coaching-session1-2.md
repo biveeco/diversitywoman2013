@@ -5,7 +5,7 @@ title: Coaching Session with Stephanie Hoogendoorn
 child: y
 name: Negotiation Coaching Session
 company: 
-categories: day1 eventbrite
+categories: coaching eventbrite
 expand: 
 eventbrite: 8106878893
 ---

@@ -1,11 +1,11 @@
 ---
 date: 2013-10-02 11:15
 hour: 
-title: Coaching Session with Christina L. Droukas
+title: Coaching Session with Beth Newbold
 child: y
 name: Negotiation Coaching Session
 company: 
-categories: day1 eventbrite
+categories: coaching eventbrite
 expand: 
-eventbrite: 8106838773
+eventbrite: 8106993235
 ---

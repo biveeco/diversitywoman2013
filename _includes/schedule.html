@@ -7,6 +7,7 @@
             <a href="#day0" id="trig-day0">Oct 1 - Pre-Conference</a>
             <a href="#day1" id="trig-day1">Oct 2</a>
             <a href="#day2" id="trig-day2">Oct 3</a>
+            <a href="#coaching" id="trig-coaching">Coaching</a>
           </nav>
           {% if site.categories.day0 %}
           <ul id="day0" class="planner">
@@ -49,9 +50,6 @@
                 </span>
                 {% endif %}
               </span>
-
-
-
             </li>
             {% endfor %}
           </ul>
@@ -77,6 +75,28 @@
             {% endfor %}
           </ul>
           {% endif %}
+          {% if site.categories.coaching %}
+          <ul id="coaching" class="planner">
+            {% for post in site.categories.coaching reversed %}
+            <li>
+              <span class="time">{{ post.hour}}</span>
+              <span class="talk">
+                <span class="session {% if post.child %} child {% endif %}">{% if post.child %}<i class="icon-chevron-sign-right"></i> {% endif %}{{ post.title }}{% if post.location %}<span class="location">{{ post.location }}</span>{% endif %}</span>
+                {% if post.name %}<span class="leader">{{ post.name }}{% if post.company %}, {{ post.company }}{% endif %}</span>{% endif %}
+                {% if post.expand %}
+                <span class="toggle"></span>
+                <span class="expanded" style="display: none;">{{ post.content }}
+                  {% if post.eventbrite %}
+                  <a href="#eventbrite-modal-{{ post.eventbrite }}" class="registerbutton call-modal">Register for {{ post.title }}</a>
+                  {% endif %}
+                </span>
+                {% endif %}
+              </span>
+            </li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+
         </div>
       </article>
     </section>

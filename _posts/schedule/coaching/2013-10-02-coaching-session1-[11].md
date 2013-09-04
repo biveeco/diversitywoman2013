@@ -5,7 +5,7 @@ title: Coaching Session with Dr. Suzan Wasik
 child: y
 name: Executive Coaching Session
 company: 
-categories: day1 eventbrite
+categories: coaching eventbrite
 expand: 
 eventbrite: 8107201859
 ---
