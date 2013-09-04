@@ -7,4 +7,5 @@ name:
 company: 
 categories: day1
 expand: 
+class: trig-coaching
 ---
