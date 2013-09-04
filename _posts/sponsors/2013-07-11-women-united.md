@@ -1,7 +1,7 @@
 ---
 date: 2013-07-11
-title: Women United
+title: Women Unlimited
 categories: bronze
-logo: WomenUnlimited_Logo.jpg
+logo: WomenUnlimited_Logo.png
 www: http://www.women-unlimited.com/
 ---
