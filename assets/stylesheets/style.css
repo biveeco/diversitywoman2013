@@ -385,7 +385,7 @@ header#site_header img {
 #speakers .speaker .imagecontainer {
   width: 180px;
   height: 210px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   overflow: hidden;
 }
 #speakers .speaker .imagecontainer img {
@@ -402,6 +402,7 @@ header#site_header img {
   font-weight: 400;
   font-style: normal;
   font-size: 70%;
+  padding: 0 5px;
 }
 /* Speaker Page
 ================================================== */
@@ -1032,7 +1033,7 @@ article article:after {
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-  -webkit-font-smoothing: antialiased;
+  -earthkit-font-smoothing: antialiased;
 }
 .icon-user:before {
   content: "\e000";
@@ -1047,7 +1048,7 @@ article article:after {
   content: "\e004";
 }
 .icon-plus:before {
-  content: "\e005";
+  content: "\f067";
 }
 .icon-earth:before {
   content: "\e003";
@@ -1081,6 +1082,13 @@ article article:after {
   }
   .desktop {
     display: none !important;
+  }
+  header#site_header {
+    position: relative;
+    padding-bottom: 40px;
+  }
+  #speakers {
+    margin-top: 0px;
   }
   /* Menus
   ================================================== */
