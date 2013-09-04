@@ -2,8 +2,8 @@
 date: 2013-10-02 11:15
 hour: 
 title: Coaching Session with Sara Laschever
-child: y
-name: Executive Coaching Session
+child: 
+name: Negotiation Coaching Session
 company: 
 categories: coaching eventbrite
 expand: 
