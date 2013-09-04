@@ -21,7 +21,8 @@ social:
 
   
 google:
-  analytics : 'UA-111-11'
+  analytics : 'UA-43775034-1'
+  domain: 'diversitywoman.com'
 
 facebook:
   admins : '2188a'
