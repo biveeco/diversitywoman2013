@@ -212,8 +212,6 @@ p {
 .heart {
   color: #f43059;
 }
-/* Logo
-================================================== */
 /* Sections
 ================================================== */
 section {
@@ -426,8 +424,8 @@ header#site_header img {
 }
 #profile ul#connect {
   list-style: none;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 #profile li {
   display: inline-block;
@@ -445,6 +443,7 @@ header#site_header img {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   padding: 10px;
+  font-size: 80%;
 }
 #profile li a:hover {
   color: #ff4000;
@@ -490,7 +489,7 @@ header#site_header img {
 #schedule a#trig-day0.active,
 #schedule a#trig-day1.active,
 #schedule a#trig-day2.active,
-#schedule a#trig-coaching.active {
+#schedule a.trig-coaching.active {
   background: #ff4000;
   color: #ffffff;
   cursor: default;
