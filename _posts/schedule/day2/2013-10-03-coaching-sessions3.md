@@ -1,6 +1,6 @@
 ---
-date: 2013-10-03 11:15
-hour: 11:15 am - 11:45 pm
+date: 2013-10-03 12:00
+hour: 12 pm - 12:30 pm
 title: Leadership Coaching Sessions
 name: 
 company:

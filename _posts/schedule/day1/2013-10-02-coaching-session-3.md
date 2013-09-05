@@ -1,6 +1,6 @@
 ---
-date: 2013-10-02 11:15
-hour: 11:15 AM - 11:45 PM
+date: 2013-10-02 16:30
+hour: 4:30 - 5:00 pm
 title: LEADERSHIP COACHING SESSIONS
 child:
 name: 
