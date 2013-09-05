@@ -11,7 +11,8 @@
             
             {% if page.ww %}<li><a href="{{ page.ww }}" target="_blank"><i class="icon-earth"></i></a></li>{% endif %}
             {% if page.tw %}<li><a href="http://www.twitter.com/{{ page.tw }}" target="_blank"><i class="icon-twitter"></i></a></li>{% endif %}
-            {% if page.in %}<li><a href="http://www.linkedin.com/in/{{ page.in }}" target="_blank"><i class="icon-linkedin"></i></a></li>{% endif %}
+            {% if page.in %}<li><a href="{{ page.in }}" target="_blank"><i class="icon-linkedin"></i></a></li>{% endif %}
+            {% if page.fb %}<li><a href="{{ page.fb }}" target="_blank"><i class="icon-facebook"></i></a></li>{% endif %}
           </ul>
           {{ content }}
         </div>

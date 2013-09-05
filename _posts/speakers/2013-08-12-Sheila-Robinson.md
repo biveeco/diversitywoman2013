@@ -7,9 +7,10 @@ title: Publisher, CEO and Conference Founder, Diversity Women Media
 image: Robinson_Sheila.jpg
 published: true
 teaser: "Sheila A. Robinson, is the Founder and Publisher of Career Network magazine, a regional publication that provides ideas, solutions and resources to business professionals at all levels."
-in:
-tw:
+in: http://www.linkedin.com/groups/Diversity-Woman-Leadership-Executive-Development-1921368/about
+tw: DiversityWoman
 ww: 
+fb: https://www.facebook.com/DiversityWomanMagazine
 ---
 Sheila A. Robinson, is the Founder and Publisher of Career Network magazine, a regional publication that provides ideas, solutions and resources to business professionals at all levels. Due to the overwhelming national response from diverse and multicultural women leaders, the publication expanded nationally in April of 2008 becoming Diversity Woman, a professional business magazine for women leaders, executives and entrepreneurs.
 
