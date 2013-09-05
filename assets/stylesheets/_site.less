@@ -102,6 +102,11 @@
       border-bottom: 1px solid darken(@offwhite,10%);
       color: @colour1;
     }
+    .speaker.honor {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      text-align: center !important;
+    }
     .speaker {
       position: relative;
       display: inline-block;
@@ -163,7 +168,7 @@
       .imagecontainer {
         width: 180px;
         height: 210px;
-        margin-bottom: 30px;
+        margin-bottom: 15px;
         overflow: hidden;
         img {
           width: 180px;
@@ -180,6 +185,15 @@
         font-weight: @regular;
         font-style: normal;
         font-size: 70%;
+        padding: 0 5px;
+        &.honor {
+          width: 100%;
+          position: absolute;
+          top: -50px;
+          color: @colour1;
+          font-size: 80%;
+          text-transform: uppercase;
+        }
       }
     }
   }

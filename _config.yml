@@ -34,6 +34,7 @@ assets:
   js: '/assets/javascripts/'
   speaker: '/assets/images/speakers/'
   sponsor: '/assets/images/sponsors/'
+  honoree: '/assets/images/honorees/'
 
 eventbrite:
   event-id: '7020860583'
