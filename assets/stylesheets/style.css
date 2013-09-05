@@ -313,6 +313,11 @@ header#site_header img {
   border-bottom: 1px solid #d9d9d9;
   color: #ff4000;
 }
+#speakers .speaker.honor {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center !important;
+}
 #speakers .speaker {
   position: relative;
   display: inline-block;
@@ -403,6 +408,14 @@ header#site_header img {
   font-style: normal;
   font-size: 70%;
   padding: 0 5px;
+}
+#speakers .speaker h4.honor {
+  width: 100%;
+  position: absolute;
+  top: -50px;
+  color: #ff4000;
+  font-size: 80%;
+  text-transform: uppercase;
 }
 /* Speaker Page
 ================================================== */
