@@ -7,7 +7,7 @@ honor: Trailblazer
 title: "Oscar Winner, Senior Producer, Pixar Animation Studios"
 image: Anderson_Darla.jpg
 published: true
-teaser: "arla K. Anderson joined Pixar Animation Studios in 1993.  Since then, her prodigious producing talents have contributed to some of the world’s most beloved and acclaimed animated feature films including “A Bug’s Life,” “Monsters, Inc.,” and the Golden Globe®-winners “Cars” and “Toy Story 3.”"
+teaser: "Darla K. Anderson joined Pixar Animation Studios in 1993.  Since then, her prodigious producing talents have contributed to some of the world’s most beloved and acclaimed animated feature films including “A Bug’s Life,” “Monsters, Inc.,” and the Golden Globe®-winners “Cars” and “Toy Story 3.”"
 in: null
 tw: null
 ww: null
