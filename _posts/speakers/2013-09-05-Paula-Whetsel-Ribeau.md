@@ -3,7 +3,7 @@ layout: speaker
 date: "2013-08-24 08:31"
 categories: speakers
 name: Dr. Paula Whetsel-Ribeau
-title: Special Assistant to the President for Community Leadership, Mount St. Mary's University
+title: Special Asst. to the President for Community Leadership
 image: Whetsel-Ribeau_Dr. Paula.jpg
 published: true
 teaser: Dr. Paula Whetsel-Ribeau is currently the Special Assistant to the President for Community Leadership at Mount St. Mary’s University in Emmitsburg, Maryland.
