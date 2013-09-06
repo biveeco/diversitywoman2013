@@ -1,7 +1,7 @@
 ---
 date: 2013-07-11
-title: Xerox
+title: Starbucks
 categories: silver
 logo: Starbucks_Logo.JPG
-www: http://www.xerox.com/
+www: http://starbucks.com/
 ---
