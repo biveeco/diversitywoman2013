@@ -1,1 +1,0 @@
-![/](/assets/images/speakers/twitter%20box%20area%20theme%20idea.png)
