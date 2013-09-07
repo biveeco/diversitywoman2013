@@ -2,17 +2,17 @@
 layout: speaker
 date: "2013-08-15 08:30"
 categories: speakers
-name: Dot Harris
-title: The Honorable Dot Harris, Director, Office of Economic Impact and Diversity
-image: Harris_Dot.jpg
+name: Susan Stith
+title: Senior Director of Diversity, Inclusion and Corporate Giving, Express Scripts
+image: Stith_Susan.jpg
 published: true
-teaser: Dot Harris was nominated by President Obama to be the Director of the Office of Economic Impact and Diversity.
+teaser: Susan A. Stith is the Senior Director of Diversity, Inclusion and Corporate Giving at Express Scripts.
 in:
 tw:
 ww: 
 ---
-Dot Harris was nominated by President Obama to be the Director of the Office of Economic Impact and Diversity at the United States Department of Energy. She was confirmed by the U.S. Senate on March 29, 2012. Ms. Harris brings nearly 30 years of management and leadership experience to this position, having served at some of the world’s largest firms and leading a successful energy, IT, and healthcare consulting firm. 
-As an Assistant Secretary at the Office of Economic Impact and Diversity, Ms. Harris leads the Department of Energy’s efforts to ensure minorities and historically underrepresented communities are afforded an opportunity to participate fully in our energy programs. Ms. Harris oversees a corporate funding strategy for minority institutions, develops the current and future Departmental workforce, works closely to develop small business contracting opportunities at the Department, and protects the civil rights of Departmental employees and recipients of funding from the Department.
-Ms. Harris brings a wealth of knowledge to this work, having been deeply engaged in the energy sector, small business innovation, and strategic partnerships. Previously, Ms. Harris was the President and CEO of Jabo Industries, LLC, a minority-woman owned management consulting firm concentrated primarily in the energy, information technology and healthcare industries.
-Ms. Harris has also served as an executive at General Electric Company (GE) and held a number of leadership positions in GE's Energy and Industrial Systems businesses. After joining GE in 2000, as the E-Business Leader for Engineering Services, Ms. Harris was critical in expanding GE’s business operations and energy sector growth. GE tasked her with key operations roles, including responsibility for the North Region power services businesses, responsibility for the Central U.S./Canada’s integrated power generation, and, beginning in 2009, oversight over all marketing for GE’s industrial businesses as GE’s Global Marketing Leader.
-Ms. Harris holds a B.S. in Electrical Engineering from the University of South Carolina in Columbia, South Carolina and a M.S. in Technology Management from Southern Polytechnic State University in Marietta, Georgia
+Susan A. Stith is the Senior Director of Diversity, Inclusion and Corporate Giving at Express Scripts. Prior to joining Express Scripts, Susan was the director of Global Diversity and University Relations for Peabody Energy, where she was responsible for leading diversity and inclusion initiatives across the company’s global platform. Her responsibilities included developing Peabody’s diversity strategy, cultivating strategic partnerships with diverse organizations and communities, and establishing and implementing programs, processes, and metrics to attract, monitor, and retain a diverse talent pipeline and workforce. In addition, she chaired Peabody’s Inclusion and Diversity Advisory Board for four years. Her other roles at Peabody Energy included director of Talent Acquisition and manager of Employee Relations.
+
+Receiving her Bachelor of Science at the University of Missouri and then her Master of Arts at the University of Phoenix, Susan began her career in the buying department with Macy’s Midwest, Susan has held various sales, marketing, and management positions with organizations such as Procter and Gamble, Golden Books Publishing, and Chattem Consumer Products. She was also an adjunct professor in human resources and marketing with the University of Phoenix, has been a lead presenter at Linkage’s Summit on Diversity and a participant on numerous diversity and inclusion panels.
+
+Susan manages and guides the Express Scripts Foundtion and is co-chair of the company’s enterprise-wide United Way campaign. She is an active board member of the United Way’s African-American Leadership Society, Cultural Leadership, Starkloff Disability Institute, the Arts and Education Council and the Family Resource Center. In addition, she serves on the Advisory Boards of the St. Louis Chapter of the Healthcare Businesswomen’s Association and Linkage’s Summit on Diversity.
