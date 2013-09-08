@@ -4,7 +4,7 @@ date: "2013-08-15 08:30"
 categories: speakers
 name: Joann Black
 title: Former Senior VP, Human Resources at Warner Bros. Studios Facilities
-image: Black_Joann
+image: Black_Joann.jpg
 published: true
 teaser: Joann Black is a former Senior VP, Human Resources at Warner Bros. Studios Facilities, a division of Warner Bros. Entertainments, Inc.
 in:
