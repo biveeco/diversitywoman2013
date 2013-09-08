@@ -4,7 +4,7 @@ date: "2013-08-15 08:30"
 categories: speakers
 name: Reta Jo Lewis
 title: Public Servant, Attorney and Diplomat
-image: Lewis-RetaJo
+image: Lewis-RetaJo.jpg
 published: true
 teaser: Reta Jo Lewis has spent her entire adult life in service to her community and country.
 in:
