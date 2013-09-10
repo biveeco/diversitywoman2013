@@ -1,13 +1,11 @@
-<section class="semantic-content" id="eventbrite-modal-{{ post.eventbrite }}" tabindex="-1"
-        role="dialog" aria-labelledby="modal-label-{{ post.eventbrite }}" aria-hidden="true">
-
+  <section class="semantic-content" id="eventbrite-modal-{{ post.eventbrite }}" tabindex="-1"
+          role="dialog" aria-labelledby="modal-label-{{ post.eventbrite }}" aria-hidden="true">
     <div class="modal-inner">
-        <header id="modal-label-{{ post.eventbrite }}"><h2>Register For {{ post.title }}</h2></header>
-        <div class="modal-content">
-        	<div style="width:100%; text-align:left;" ><iframe src="https://www.eventbrite.com/tickets-external?eid={{ post.eventbrite }}&amp;ref=etckt&amp;v=2" style="height: 550px; width: 100%;"></iframe>
-        	</div>
+      <header id="modal-label-{{ post.eventbrite }}"><h3>Register For {{ post.title }}</h3></header>
+      <div class="modal-content">
+        <div style="width:100%; text-align:left;" ><iframe src="https://www.eventbrite.com/tickets-external?eid={{ post.eventbrite }}&amp;ref=etckt&amp;v=2" style="height: 550px; width: 100%;"></iframe>
         </div>
+      </div>
     </div>
-
-    <a href="#!" class="modal-close" title="Close this modal" data-close="Close" data-dismiss="modal" style="color:#ff4000;">×</a>
-</section>
+    <a href="#" class="modal-close" title="Close this modal" data-close="Close" data-dismiss="modal" style="color:#ff4000;">×</a>
+  </section>
