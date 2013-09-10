@@ -3,7 +3,7 @@ layout: speaker
 date: "2013-08-15 08:30"
 categories: speakers
 name: Subha Barry
-title: Adjunct Professor at Columbia University
+title: Diversity & Inclusion Expert, Board Chair, Cancer Institute of New Jersey
 image: Barry_Subha.jpg
 published: true
 teaser: Subha Barry is an Expert Advisor on Multicultural Marketing, Diversity, Inclusion and Human Capital issues.

@@ -3,7 +3,7 @@ layout: speaker
 date: "2013-08-22 08:30"
 categories: speakers
 name: Judy Tomlinson
-title: CEO Avosoft
+title: Founder of Avocsoft and CEO of FashionTEQ
 image: Tomlinson_Judy.jpg
 published: true
 teaser: Throughout her career in engineering, technical business development, and entrepreneurship, Judy Tomlinson has always had what it takes to be a successful entrepreneur.  She has been at the forefront of high tech innovation- and has started two companies that marry her entrepreneurial spirit with cutting edge technology.  

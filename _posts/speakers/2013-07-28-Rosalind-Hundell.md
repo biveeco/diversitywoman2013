@@ -2,8 +2,8 @@
 layout: speaker
 date: "2013-07-28 08:30"
 categories: speakers
-name: Rosalind Hundell
-title: Vice President of Human REsources & Director of Global Employee Communications & External Relations, Intel Corporation
+name: Rosalind Hudnell
+title: Vice President of Human Resources & Director of Global Employee Communications & External Relations, Intel Corporation
 image: Hundell_Rosalind.jpg
 published: true
 teaser: Rosalind L. Hudnell is a Vice President of Human Resources at Intel Corporation and serves as Director of Global Employee Communications and External Relations.  Since joining Intel in 1996, Hudnell has held various management positions in community relations, government relations, charitable contributions, media outreach, employee volunteerism and workforce development. 
