@@ -6,71 +6,33 @@
           {% if site.categories.diamond %}
           <div id="diamond" class="sponsors">
             <h3>Diamond</h3>
-          {% for post in site.categories.diamond %}{% if post.logo %}
-            <a href="{{ post.www }}" target="_blank" class="sponsorlogo"><img src="{{ site.assets.sponsor }}{{ post.logo }}" alt="{{ post.title }}" /></a>
-          {% endif %}{% endfor %}
+            {% for post in site.categories.diamond %}{% if post.logo %}<a href="{{ post.www }}" target="_blank" class="sponsorlogo"><img src="{{ site.assets.sponsor }}{{ post.logo }}" alt="{{ post.title }}" /></a>{% endif %}{% endfor %}
           </div>
-          {% endif %}
-          {% if site.categories.pearl %}
+          {% endif %}{% if site.categories.pearl %}
           <div id="pearl" class="sponsors">
             <h3>Pearl</h3>
-          {% for post in site.categories.pearl %}
-            {% if post.logo %}
-            <a href="{{ post.www }}" target="_blank" class="sponsorlogo"><img src="{{ site.assets.sponsor }}{{ post.logo }}" alt="{{ post.title }}" /></a>
-            {% endif %}
-          {% endfor %}
-          </div>
-          {% endif %}
-          {% if site.categories.platinum %}
+          {% for post in site.categories.pearl %}{% if post.logo %}<a href="{{ post.www }}" target="_blank" class="sponsorlogo"><img src="{{ site.assets.sponsor }}{{ post.logo }}" alt="{{ post.title }}" /></a>{% endif %}{% endfor %}          </div>
+          {% endif %}{% if site.categories.platinum %}
           <div id="platinum" class="sponsors">
             <h3>Platinum</h3>
-          {% for post in site.categories.platinum %}
-            {% if post.logo %}
-            <a href="{{ post.www }}" target="_blank" class="sponsorlogo"><img src="{{ site.assets.sponsor }}{{ post.logo }}" alt="{{ post.title }}" /></a>
-            {% endif %}
-          {% endfor %}
-          </div>
-          {% endif %}
-          {% if site.categories.gold %}
+          {% for post in site.categories.platinum %}{% if post.logo %}<a href="{{ post.www }}" target="_blank" class="sponsorlogo"><img src="{{ site.assets.sponsor }}{{ post.logo }}" alt="{{ post.title }}" /></a>{% endif %}{% endfor %}          </div>
+          {% endif %}{% if site.categories.gold %}
           <div id="gold" class="sponsors">
             <h3>Gold</h3>
-          {% for post in site.categories.gold %}
-            {% if post.logo %}
-            <a href="{{ post.www }}" target="_blank" class="sponsorlogo"><img src="{{ site.assets.sponsor }}{{ post.logo }}" alt="{{ post.title }}" /></a>
-            {% endif %}
-          {% endfor %}
-          </div>
-          {% endif %}
-          {% if site.categories.silver %}
+          {% for post in site.categories.gold %}{% if post.logo %}<a href="{{ post.www }}" target="_blank" class="sponsorlogo"><img src="{{ site.assets.sponsor }}{{ post.logo }}" alt="{{ post.title }}" /></a>{% endif %}{% endfor %}          </div>
+          {% endif %}{% if site.categories.silver %}
           <div id="silver" class="sponsors">
             <h3>silver</h3>
-          {% for post in site.categories.silver %}
-            {% if post.logo %}
-            <a href="{{ post.www }}" target="_blank" class="sponsorlogo"><img src="{{ site.assets.sponsor }}{{ post.logo }}" alt="{{ post.title }}" /></a>
-            {% endif %}
-          {% endfor %}
-          </div>
-          {% endif %}
-          {% if site.categories.bronze %}
+          {% for post in site.categories.silver %}{% if post.logo %}<a href="{{ post.www }}" target="_blank" class="sponsorlogo"><img src="{{ site.assets.sponsor }}{{ post.logo }}" alt="{{ post.title }}" /></a>{% endif %}{% endfor %}          </div>
+          {% endif %}{% if site.categories.bronze %}
           <div id="bronze" class="sponsors">
             <h3>bronze</h3>
-          {% for post in site.categories.bronze %}
-            {% if post.logo %}
-            <a href="{{ post.www }}" target="_blank" class="sponsorlogo"><img src="{{ site.assets.sponsor }}{{ post.logo }}" alt="{{ post.title }}" /></a>
-            {% endif %}
-          {% endfor %}
-          </div>
-          {% endif %}
-          
-          {% if site.categories.partners %}
+          {% for post in site.categories.bronze %}{% if post.logo %}<a href="{{ post.www }}" target="_blank" class="sponsorlogo"><img src="{{ site.assets.sponsor }}{{ post.logo }}" alt="{{ post.title }}" /></a>{% endif %}{% endfor %}          </div>
+          {% endif %}{% if site.categories.partners %}
           <div id="partners" class="sponsors">
             <h3>partners</h3>
-          {% for post in site.categories.partners %}
-            {% if post.logo %}
-            <a href="{{ post.www }}" target="_blank" class="sponsorlogo"><img src="{{ site.assets.sponsor }}{{ post.logo }}" alt="{{ post.title }}" /></a>
-            {% endif %}
-          {% endfor %}
-          </div>
-          {% endif %}   
+          {% for post in site.categories.partners %}{% if post.logo %}<a href="{{ post.www }}" target="_blank" class="sponsorlogo"><img src="{{ site.assets.sponsor }}{{ post.logo }}" alt="{{ post.title }}" /></a>{% endif %}{% endfor %}          </div>
+          {% endif %}  
+        </div> 
       </article>
     </section>
