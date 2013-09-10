@@ -19,13 +19,13 @@
         </div>
     </article>
   </footer>
-
-{% include scripts.html %}
 {% include eventbrite_modal.html %}
-
 {% for post in site.categories.eventbrite %}
   {% include eventbrite_modal_sub.html %}
 {% endfor %}
+
+
+{% include scripts.html %}
 
 </body>
 </html>
