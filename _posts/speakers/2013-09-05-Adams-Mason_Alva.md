@@ -3,7 +3,7 @@ layout: speaker
 date: "2013-08-15 08:30"
 categories: speakers
 name: Alva Adams-Mason
-title: 
+title: Manager of Diversity, Inclusion and Community Relations for Toyota Motor Sales, USA
 image: Adams-Mason_Alva.jpg
 published: true
 teaser: Alva Adams-Mason has helped Toyota Motor Sales more than triple its number of minority dealerships since 2001.
