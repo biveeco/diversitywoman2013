@@ -87,7 +87,7 @@ video {
 }
 html,
 body {
-  font-family: 'Ubuntu', Helvetica, Verdana, Arial, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Verdana, Arial, sans-serif;
   width: 100%;
   height: 100%;
   font-size: 100%;
@@ -159,11 +159,11 @@ hr {
 /* Typography
 ================================================== */
 .font {
-  font-family: 'Ubuntu', Helvetica, Verdana, Arial, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Verdana, Arial, sans-serif;
 }
 /* Link Styles */
 a {
-  font-family: 'Ubuntu', Helvetica, Verdana, Arial, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Verdana, Arial, sans-serif;
   text-decoration: none;
 }
 /* Heading Styles */
@@ -173,7 +173,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Ubuntu', Helvetica, Verdana, Arial, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Verdana, Arial, sans-serif;
 }
 h1 {
   font-weight: 300;
