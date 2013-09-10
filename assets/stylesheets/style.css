@@ -1021,7 +1021,7 @@ article article:after {
 /* Form Styles
 ================================================== *//* Icons
 ================================================== */
- /*@font-face {
+ @font-face {
   font-family: 'icomoon';
   src:url('../fonts/icomoon.eot');
   src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
@@ -1050,7 +1050,7 @@ article article:after {
 Instead of a list of all class selectors,
 you can use the generic selector below, but it's slower:
 [class*="icon-"] {
-
+*/
 .icon-earth, .icon-plus, .icon-linkedin, .icon-twitter, .icon-facebook, .icon-user, .icon-chevron-sign-right {
   font-family: 'icomoon';
   speak: none;
@@ -1081,7 +1081,7 @@ you can use the generic selector below, but it's slower:
 }
 .icon-chevron-sign-right:before {
   content: "\f138";
-} */
+}
 /* Responsive
 ================================================== */
 .mobile {
