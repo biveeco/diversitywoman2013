@@ -20,14 +20,9 @@
               <p>{{ post.teaser }}</p>
               <div class="linkgroup">
                 <a href="{{ post.url }}" target="_self" title="Read More"><i class="icon-plus"></i></a>
-                {% if post.tw %}<a href="http://www.twitter.com/{{ post.tw }}" target="_blank"><i class="icon-twitter"></i></a>{% endif %}
-                {% if post.in %}<a href="{{ post.in }}" target="_blank"><i class="icon-linkedin"></i></a>{% endif %} 
-                {% if post.ww %}<a href="{{ post.ww }}" target="_blank"><i class="icon-earth"></i></a>{% endif %}
               </div>
             </div>
-          </div>
-          {% endfor %}
-          <hr>
+          </div>{% endfor %}
           <h2>The Speakers</h2>
           <p>We bet you will learn something new</p>
           {% for post in site.categories.speakers reversed %}
@@ -43,13 +38,9 @@
               <p>{{ post.teaser }}</p>
               <div class="linkgroup">
                 <a href="{{ post.url }}" target="_self" title="Read More"><i class="icon-plus"></i></a>
-                {% if post.tw %}<a href="http://www.twitter.com/{{ post.tw }}" target="_blank"><i class="icon-twitter"></i></a>{% endif %}
-                {% if post.fb %}<a href="{{ post.fb }}" target="_blank"><i class="icon-facebook"></i></a>{% endif %}
-                {% if post.in %}<a href="{{ post.in }}" target="_blank"><i class="icon-linkedin"></i></a>{% endif %} 
-                {% if post.ww %}<a href="{{ post.ww }}" target="_blank"><i class="icon-earth"></i></a>{% endif %}
-              </div>
+             </div>
             </div>
-          </div>
-          {% endfor %}
+          </div>{% endfor %}
+        </div>
       </article>
     </section>

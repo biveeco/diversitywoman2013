@@ -6,11 +6,9 @@
           {% if site.categories.diamond %}
           <div id="diamond" class="sponsors">
             <h3>Diamond</h3>
-          {% for post in site.categories.diamond %}
-            {% if post.logo %}
+          {% for post in site.categories.diamond %}{% if post.logo %}
             <a href="{{ post.www }}" target="_blank" class="sponsorlogo"><img src="{{ site.assets.sponsor }}{{ post.logo }}" alt="{{ post.title }}" /></a>
-            {% endif %}
-          {% endfor %}
+          {% endif %}{% endfor %}
           </div>
           {% endif %}
           {% if site.categories.pearl %}
