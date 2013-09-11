@@ -5,7 +5,7 @@ categories: speakers
 name: Clarence Johnson
 title: Principal Director and Director for CEEO, Office of the Deputy Under Sec. of Defense
 image: Johnson_Clarence.jpg
-published: true
+published: 
 teaser: Clarence Johnson is responsible for the development and coordination of equal opportunity policies for the Dept. of Defense.
 in:
 tw:
