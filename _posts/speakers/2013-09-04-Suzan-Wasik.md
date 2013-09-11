@@ -4,7 +4,7 @@ date: "2013-08-24 08:31"
 categories: speakers
 name: Dr. Suzan Wasik
 title: Executive and Life Coach and Consultant
-image: Wasik_Dr. Suzan.jpg
+image: Wasik_Dr-Suzan.jpg
 published: true
 teaser: "Dr. Suzan Zuljani Wasik is an Executive and Life Coach and consultant with over 17 years experience in the field of positive change. Whether working with individuals, groups, corporations, or communities, she helps clients get unstuck in current limiting beliefs, situations, and circumstances by helping them build strategic bridges to change and transformation."
 in:

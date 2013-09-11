@@ -9,106 +9,78 @@
             <a href="#day2" id="trig-day2">Oct 3</a>
             <a href="#coaching" class="trig-coaching">Coaching</a>
           </nav>
-          {% if site.categories.day0 %}
-          <ul id="day0" class="planner">
-            {% for post in site.categories.day0 reversed %}
+          {% if site.categories.day0 %}<ul id="day0" class="planner">{% for post in site.categories.day0 reversed %}
             <li>
               <span class="time">{{ post.hour | upcase }}</span>
               <span class="talk">
-                <span class="session {% if post.child %} child {% endif %}"> {% if post.child %} <i class="icon-chevron-sign-right"></i> {% endif %} {{ post.title }}{% if post.location %}<span class="location">{{ post.location }}</span>{% endif %}</span>
-                {% if post.name %}<span class="leader">{{ post.name }}{% if post.company %}, {{ post.company }}{% endif %}</span>{% endif %}
-               
-                {% if post.expand %}
+                <span class="session {% if post.child %} child {% endif %}">{% if post.child %} <i class="icon-chevron-sign-right"></i>{% endif %}{{ post.title }}{% if post.location %}<span class="location">{{ post.location }}</span>{% endif %}</span>
+                {% if post.name %}<span class="leader">{{ post.name }}{% if post.company %}, {{ post.company }}{% endif %}</span>{% endif %}{% if post.expand %}
                 <span class="toggle"></span>
-                <span class="expanded" style="display: none;">{{ post.content }}</span>
-                {% endif %}
-                
-                {% if post.eventbrite %}
-                <span class="eventbrite-sub">
-                <a href="#eventbrite-modal-{{ post.eventbrite }}" class="registerbutton call-modal">Register</a>
+                <span class="expanded" style="display: none;">
+                  {{ post.content }}
                 </span>
-                {% endif %}
+                {% endif %}{% if post.eventbrite %}
+                <span class="eventbrite-sub">
+                  <a href="#eventbrite-modal-{{ post.eventbrite }}" class="registerbutton call-modal">Register</a>
+                </span>{% endif %}
               </span>
-            </li>
-            {% endfor %}
+            </li>{% endfor %}
           </ul>
-          {% endif %}
-          {% if site.categories.day1 %}
-          <ul id="day1" class="planner">
-            {% for post in site.categories.day1 reversed %}
+          {% endif %}{% if site.categories.day1 %}
+          <ul id="day1" class="planner">{% for post in site.categories.day1 reversed %}
             <li>
               <span class="time">{{ post.hour | upcase }}</span>
-              <span class="talk{% if post.class %} {{ post.class }}{% endif %}">
-                <span class="session {% if post.child %} child {% endif %}"> {% if post.child %} <i class="icon-chevron-sign-right"></i> {% endif %} {{ post.title }}{% if post.location %}<span class="location">{{ post.location }}</span>{% endif %}</span>
-                {% if post.name %}<span class="leader">{{ post.name }}{% if post.company %}, {{ post.company }}{% endif %}</span>{% endif %}
-
-                {% if post.expand %}
+              <span class="talk">
+                <span class="session {% if post.child %} child {% endif %}">{% if post.child %} <i class="icon-chevron-sign-right"></i>{% endif %}{{ post.title }}{% if post.location %}<span class="location">{{ post.location }}</span>{% endif %}</span>
+                {% if post.name %}<span class="leader">{{ post.name }}{% if post.company %}, {{ post.company }}{% endif %}</span>{% endif %}{% if post.expand %}
                 <span class="toggle"></span>
-                <span class="expanded" style="display: none;">{{ post.content }}</span>
-                {% endif %}
-                
-                {% if post.eventbrite %}
-                <span class="eventbrite-sub">
-                <a href="#eventbrite-modal-{{ post.eventbrite }}" class="registerbutton call-modal">Register</a>
+                <span class="expanded" style="display: none;">
+                  {{ post.content }}
                 </span>
-                {% endif %}
+                {% endif %}{% if post.eventbrite %}
+                <span class="eventbrite-sub">
+                  <a href="#eventbrite-modal-{{ post.eventbrite }}" class="registerbutton call-modal">Register</a>
+                </span>{% endif %}
               </span>
-            </li>
-            {% endfor %}
+            </li>{% endfor %}
           </ul>
-          {% endif %}
-          {% if site.categories.day2 %}
-          <ul id="day2" class="planner">
-            {% for post in site.categories.day2 reversed %}
+          {% endif %}{% if site.categories.day2 %}
+          <ul id="day2" class="planner">{% for post in site.categories.day2 reversed %}
             <li>
               <span class="time">{{ post.hour | upcase }}</span>
-              <span class="talk{% if post.class %} {{ post.class }}{% endif %}">
-                <span class="session {% if post.child %} child {% endif %}"> {% if post.child %} <i class="icon-chevron-sign-right"></i> {% endif %} {{ post.title }}{% if post.location %}<span class="location">{{ post.location }}</span>{% endif %}</span>
-                {% if post.name %}<span class="leader">{{ post.name }}{% if post.company %}, {{ post.company }}{% endif %}</span>{% endif %}
-                
-                {% if post.expand %}
+              <span class="talk">
+                <span class="session {% if post.child %} child {% endif %}">{% if post.child %} <i class="icon-chevron-sign-right"></i>{% endif %}{{ post.title }}{% if post.location %}<span class="location">{{ post.location }}</span>{% endif %}</span>
+                {% if post.name %}<span class="leader">{{ post.name }}{% if post.company %}, {{ post.company }}{% endif %}</span>{% endif %}{% if post.expand %}
                 <span class="toggle"></span>
-                <span class="expanded" style="display: none;">{{ post.content }}</span>
-                {% endif %}
-                
-                {% if post.eventbrite %}
-                <span class="eventbrite-sub">
-                <a href="#eventbrite-modal-{{ post.eventbrite }}" class="registerbutton call-modal">Register</a>
+                <span class="expanded" style="display: none;">
+                  {{ post.content }}
                 </span>
-                {% endif %}
-
+                {% endif %}{% if post.eventbrite %}
+                <span class="eventbrite-sub">
+                  <a href="#eventbrite-modal-{{ post.eventbrite }}" class="registerbutton call-modal">Register</a>
+                </span>{% endif %}
               </span>
-            </li>
-            {% endfor %}
+            </li>{% endfor %}
           </ul>
-          {% endif %}
-
-          {% if site.categories.coaching %}
+          {% endif %}{% if site.categories.coaching %}
           <ul id="coaching" class="planner">
             {% for post in site.categories.coaching reversed %}
             <li>
               <span class="time">{{ post.hour | upcase }}</span>
               <span class="talk">
-                <span class="session {% if post.child %} child {% endif %}">{% if post.child %}<i class="icon-chevron-sign-right"></i> {% endif %}{{ post.title }}{% if post.location %}<span class="location">{{ post.location }}</span>{% endif %}</span>
-                {% if post.name %}<span class="leader">{{ post.name }}{% if post.company %}, {{ post.company }}{% endif %}</span>{% endif %}
-              
-               {% if post.expand %}
+                <span class="session {% if post.child %} child {% endif %}">{% if post.child %} <i class="icon-chevron-sign-right"></i>{% endif %}{{ post.title }}{% if post.location %}<span class="location">{{ post.location }}</span>{% endif %}</span>
+                {% if post.name %}<span class="leader">{{ post.name }}{% if post.company %}, {{ post.company }}{% endif %}</span>{% endif %}{% if post.expand %}
                 <span class="toggle"></span>
-                <span class="expanded" style="display: none;">{{ post.content }}</span>
-                {% endif %}
-                
-                {% if post.eventbrite %}
-                <span class="eventbrite-sub">
-                <a href="#eventbrite-modal-{{ post.eventbrite }}" class="registerbutton call-modal">Register</a>
+                <span class="expanded" style="display: none;">
+                  {{ post.content }}
                 </span>
-                {% endif %}
-
+                {% endif %}{% if post.eventbrite %}
+                <span class="eventbrite-sub">
+                  <a href="#eventbrite-modal-{{ post.eventbrite }}" class="registerbutton call-modal">Register</a>
+                </span>{% endif %}
               </span>
-            </li>
-            {% endfor %}
-          </ul>
-          {% endif %}
-
+            </li>{% endfor %}
+          </ul>{% endif %}
         </div>
       </article>
     </section>
