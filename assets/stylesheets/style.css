@@ -158,7 +158,7 @@ hr {
 }
 /* IE Fix */
 .lt-ie9 #container { display:none; } 
-.lt-ie9 footer {  display:none; }
+.lt-ie9 #bottom {  display:none; }
 .lt-ie9 body {  background:red; }
 
 /* Typography

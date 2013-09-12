@@ -18,14 +18,13 @@
         <span><a href="http://www.bivee.co" target="_blank">Made with <b class="heart">♥</b> in DC by Bivee</a></span>
         </div>
     </article>
-  </footer>
-{% include eventbrite_modal.html %}
-{% for post in site.categories.eventbrite %}
-  {% include eventbrite_modal_sub.html %}
-{% endfor %}
+    {% include eventbrite_modal.html %}
+      {% for post in site.categories.eventbrite %}
+        {% include eventbrite_modal_sub.html %}
+      {% endfor %}
 
+  </footer>
 
 {% include scripts.html %}
-
 </body>
 </html>
