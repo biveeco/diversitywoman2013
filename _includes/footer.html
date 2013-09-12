@@ -12,19 +12,21 @@
   </div>
   <footer id="bottom">
     <article>
-      <div class="columns large-12">
+      <div class="columns large-12 ie-hide">
         <span><a href="http://www.diversitywoman.com" target="_blank">&copy; Diversity Woman</a></span>
         <span>|</span>
         <span><a href="http://www.bivee.co" target="_blank">Made with <b class="heart">♥</b> in DC by Bivee</a></span>
         </div>
     </article>
+  </footer>
+
+    <div class="ie-hide">
     {% include eventbrite_modal.html %}
       {% for post in site.categories.eventbrite %}
         {% include eventbrite_modal_sub.html %}
       {% endfor %}
-
-  </footer>
+    </div>
 
 {% include scripts.html %}
 </body>
-</html>
+</html> 
