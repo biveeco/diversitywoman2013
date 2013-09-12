@@ -4,7 +4,7 @@ date: "2013-08-15 08:30"
 categories: speakers
 name: Sherri Goodman
 title: Senior VP, General Counsel & Corporate Secretary
-image: Goodman_Sherri.jpg
+image: Goodman_Sherri_small.jpg
 published: true
 teaser: Sherri Goodman has been recognized for creating the CNA Military Advisory Board.
 in:
