@@ -3,7 +3,6 @@ pygments: false
 markdown: kramdown
 paginate: 10
 version: 0.9
-
 seo:
   author: "Nicholas Kingston, Scott Schaffter - Bivee LLC"
   description: 
@@ -25,8 +24,8 @@ google:
   domain: 'diversitywoman.com'
 
 facebook:
-  admins : '2188a'
-  api : 'asdfas'
+  admins : ''
+  api : ''
 
 assets:
   img: '/assets/images/'
