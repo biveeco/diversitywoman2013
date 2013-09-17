@@ -10,7 +10,7 @@
     </section>
     <div id="push"></div>
   </div>
-  <footer id="bottom">
+  <footer id="bottom" class="ie-hide">
     <article>
       <div class="columns large-12">
         <span><a href="http://www.diversitywoman.com" target="_blank">&copy; Diversity Woman</a></span>
@@ -19,13 +19,14 @@
         </div>
     </article>
   </footer>
-{% include eventbrite_modal.html %}
-{% for post in site.categories.eventbrite %}
-  {% include eventbrite_modal_sub.html %}
-{% endfor %}
 
+    <div class="ie-hide">
+    {% include eventbrite_modal.html %}
+      {% for post in site.categories.eventbrite %}
+        {% include eventbrite_modal_sub.html %}
+      {% endfor %}
+    </div>
 
 {% include scripts.html %}
-
 </body>
-</html>
+</html> 

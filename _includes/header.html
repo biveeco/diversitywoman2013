@@ -1,6 +1,10 @@
 <!doctype html>
-<html lang="en">
-<head>
+<!--[if lt IE 7]><html class="no-js ie ie6" lang="en"><![endif]-->
+<!--[if IE 7]><html class="no-js ie ie7" lang="en"><![endif]-->
+<!--[if IE 8]><html class="no-js ie ie8" lang="en"><![endif]-->
+<!--[if (gt IE 8)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+
+<head>  
   
   <title>Diversity Woman || 2013 Conference</title>
   
@@ -47,8 +51,7 @@
   <link rel="stylesheet" media="screen" href="{{ site.assets.css }}style.css" />
   <link rel="stylesheet" media="screen" href="{{ site.assets.css }}modal.css" />
 
-  <!-- IE Fixes  -->
-  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif] -->
-  
 </head>
 <body onload="initialize()">
+  
+  {% include ie_fix.html %}

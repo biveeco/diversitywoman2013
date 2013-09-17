@@ -3,7 +3,7 @@ layout: speaker
 date: "2013-08-07 08:30"
 categories: speakers
 name: Wendy Morton-Huddleston
-title: Principal - Grant Thorton 
+title: Principal, Grant Thorton 
 image: Morton-Huddleston_Wendy.jpg
 published: true
 teaser:  Wendy Morton-Huddleston is a Principal at Grant Thornton LLP.  She has over fifteen years of professional experience in project management, Federal financial management, grants management, business process improvement, performance management, and strategic planning.  
