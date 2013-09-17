@@ -5,7 +5,7 @@ title: Coaching Session with Judy Ravin
 child: 
 name: Executive Coaching Session
 company: 
-categories: draft-coaching eventbrite
+categories: coaching eventbrite
 expand: 
 eventbrite: 8107201859
 ---
