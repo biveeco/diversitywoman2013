@@ -50,7 +50,7 @@ $('a#trig-day0').click(function(event) {
   $('#day0').delay(400).slideDown('slow');
 });
 
-$('a#trig-day1').click(function(event) {
+$('a#trig-day1, .trig-day1').click(function(event) {
   event.preventDefault();
   $('a#trig-day0, a#trig-day2, .trig-coaching').removeClass('active');
   $('#day0, #day2, #coaching').slideUp('400');
