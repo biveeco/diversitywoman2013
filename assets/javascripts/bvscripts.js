@@ -50,7 +50,7 @@ $(document).ready(function() {
     $('#day0').delay(400).slideDown('slow');
   });
   
-  $('a#trig-day1, .trig-day1').click(function(event) {
+  $('a#trig-day1').click(function(event) {
     event.preventDefault();
     $('a#trig-day0, a#trig-day2, .trig-coaching').removeClass('active');
     $('#day0, #day2, #coaching').slideUp('400');
@@ -68,6 +68,12 @@ $(document).ready(function() {
   
   $('.trig-coaching').click(function(event) {
     event.preventDefault();
+    $('a#trig-day0, a#trig-day1, a#trig-day2').removeClass('active');
+    $('#day0, #day1, #day2').slideUp('400');
+    $('#coaching').delay(400).slideDown('slow');
+    $('.trig-coaching').addClass('active');
+  });
+  $('.trig-coaching-menu').click(function(){
     $('a#trig-day0, a#trig-day1, a#trig-day2').removeClass('active');
     $('#day0, #day1, #day2').slideUp('400');
     $('#coaching').delay(400).slideDown('slow');
