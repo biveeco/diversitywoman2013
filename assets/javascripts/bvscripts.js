@@ -38,40 +38,41 @@ $(document).on("click", ".toggle", function(event){
 /*
  * Tabbed browsing for Day Events
  */
- 
-$('#day0, #day2, #coaching').fadeOut('fast');
-$('a#trig-day1').addClass('active');
-
-$('a#trig-day0').click(function(event) {
-  event.preventDefault();
-  $('a#trig-day0').addClass('active');
-  $('a#trig-day1, a#trig-day2, .trig-coaching').removeClass('active');
-  $('#day1, #day2, #coaching').slideUp('400');
-  $('#day0').delay(400).slideDown('slow');
-});
-
-$('a#trig-day1, .trig-day1').click(function(event) {
-  event.preventDefault();
-  $('a#trig-day0, a#trig-day2, .trig-coaching').removeClass('active');
-  $('#day0, #day2, #coaching').slideUp('400');
-  $('#day1').delay(400).slideDown('slow');
+$(document).ready(function() { 
+  $('#day0, #day2, #coaching').fadeOut('fast');
   $('a#trig-day1').addClass('active');
-});
-
-$('a#trig-day2').click(function(event) {
-  event.preventDefault();
-  $('a#trig-day0, a#trig-day1, .trig-coaching').removeClass('active');
-  $('#day0, #day1, #coaching').slideUp('400');
-  $('#day2').delay(400).slideDown('slow');
-  $('a#trig-day2').addClass('active');
-});
-
-$('.trig-coaching').click(function(event) {
-  event.preventDefault();
-  $('a#trig-day0, a#trig-day1, a#trig-day2').removeClass('active');
-  $('#day0, #day1, #day2').slideUp('400');
-  $('#coaching').delay(400).slideDown('slow');
-  $('.trig-coaching').addClass('active');
+  
+  $('a#trig-day0').click(function(event) {
+    event.preventDefault();
+    $('a#trig-day0').addClass('active');
+    $('a#trig-day1, a#trig-day2, .trig-coaching').removeClass('active');
+    $('#day1, #day2, #coaching').slideUp('400');
+    $('#day0').delay(400).slideDown('slow');
+  });
+  
+  $('a#trig-day1, .trig-day1').click(function(event) {
+    event.preventDefault();
+    $('a#trig-day0, a#trig-day2, .trig-coaching').removeClass('active');
+    $('#day0, #day2, #coaching').slideUp('400');
+    $('#day1').delay(400).slideDown('slow');
+    $('a#trig-day1').addClass('active');
+  });
+  
+  $('a#trig-day2').click(function(event) {
+    event.preventDefault();
+    $('a#trig-day0, a#trig-day1, .trig-coaching').removeClass('active');
+    $('#day0, #day1, #coaching').slideUp('400');
+    $('#day2').delay(400).slideDown('slow');
+    $('a#trig-day2').addClass('active');
+  });
+  
+  $('.trig-coaching').click(function(event) {
+    event.preventDefault();
+    $('a#trig-day0, a#trig-day1, a#trig-day2').removeClass('active');
+    $('#day0, #day1, #day2').slideUp('400');
+    $('#coaching').delay(400).slideDown('slow');
+    $('.trig-coaching').addClass('active');
+  });
 });
 
 
