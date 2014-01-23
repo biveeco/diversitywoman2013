@@ -1,3 +1,24 @@
+prose:
+  rooturl: '_posts'
+  siteurl: 'http://conference2013.diversitywoman.com'
+  media: 'assets/images/uploads'
+  ignore:
+    - index.md
+    - _config.yml
+    - /_layouts
+    - /_includes
+  metadata:
+    _posts/honorees:
+      - name: "layout"
+          element: "hidden"
+          value: "speaker"
+      - name: 'date'
+          element: 'hidden'
+      - name: 'honor'
+          element: 'select'
+          label: 'Select a Honoree Category'
+          help: 'Select a category'
+
 name: Diversity Woman
 pygments: false
 markdown: kramdown
