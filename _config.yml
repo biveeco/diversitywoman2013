@@ -8,13 +8,16 @@ prose:
     - /_layouts
     - /_includes
   metadata:
-    _posts/honorees:
-      - name: "layout"
-          element: "hidden"
-          value: "speaker"
+    _posts:
+      - name: 'layout'
+        field:
+          element: 'hidden'
+          value: 'speaker'
       - name: 'date'
+        field:
           element: 'hidden'
       - name: 'honor'
+        field:
           element: 'select'
           label: 'Select a Honoree Category'
           help: 'Select a category'
@@ -36,10 +39,8 @@ contact:
 
 url:
 permalink: /:title
-  
-social:
 
-  
+social:
 google:
   analytics : 'UA-43775034-1'
   domain: 'diversitywoman.com'
